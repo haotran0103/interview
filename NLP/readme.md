@@ -144,3 +144,33 @@ Dưới đây là phần giải thích chi tiết về **Natural Language Proces
    - **ROUGE (Recall-Oriented Understudy for Gisting Evaluation):** Đánh giá độ chính xác cho các mô hình tóm tắt văn bản, bằng cách so sánh tóm tắt dự đoán với tóm tắt gốc.
    - **Cosine Similarity và Euclidean Distance:** Đo độ giống nhau giữa các vector từ để đánh giá mức độ giống nhau giữa các văn bản.
 
+### **1. Đánh giá Mô hình NLP**
+
+Đánh giá mô hình NLP khác nhau tùy theo tác vụ, nhưng có một số tiêu chí phổ biến để kiểm tra độ chính xác và khả năng của mô hình:
+
+   - **Accuracy (Độ chính xác):** Tỷ lệ dự đoán đúng so với tổng số dự đoán, thường dùng cho các tác vụ phân loại.
+   - **Precision, Recall, F1 Score:**
+     - **Precision**: Tỷ lệ các dự đoán đúng trong tổng số dự đoán dương, rất quan trọng khi sai lầm có thể gây hậu quả lớn.
+     - **Recall**: Tỷ lệ các dự đoán đúng trên tổng số dữ liệu đúng, hữu ích cho các tác vụ như phân loại văn bản hoặc phát hiện tên thực thể.
+     - **F1 Score**: Trung bình điều hòa giữa Precision và Recall, dùng khi cần cân bằng cả hai.
+   - **BLEU và ROUGE Scores:** Dùng cho các tác vụ sinh văn bản và tóm tắt văn bản.
+     - **BLEU (Bilingual Evaluation Understudy)**: Đánh giá độ trùng khớp của văn bản dự đoán với văn bản gốc.
+     - **ROUGE (Recall-Oriented Understudy for Gisting Evaluation):** Dùng trong tóm tắt văn bản, đo lường các câu được tóm tắt có sát với nội dung gốc không.
+   - **Perplexity (Sự phức tạp):** Thường dùng cho các mô hình sinh văn bản để đo độ ngạc nhiên khi gặp từ mới, perplexity thấp chứng tỏ mô hình tiên đoán từ mới hiệu quả hơn.
+
+### **2. Tránh Overfitting trong NLP**
+
+   - **Regularization (Điều chỉnh):** L2 (Ridge) hoặc L1 (Lasso) là các phương pháp điều chỉnh truyền thống áp dụng cho các mô hình học sâu để tránh overfitting.
+   - **Dropout:** Một kỹ thuật trong các mạng neuron giúp giảm độ phức tạp bằng cách bỏ qua một số neuron ngẫu nhiên trong quá trình huấn luyện.
+   - **Early Stopping:** Theo dõi độ lỗi trên tập validation và ngừng huấn luyện khi độ lỗi không còn giảm, tránh mô hình học quá chi tiết vào dữ liệu huấn luyện.
+   - **Data Augmentation:** Tăng cường dữ liệu bằng cách tạo ra các ví dụ mới từ các mẫu hiện có, ví dụ như sử dụng các kỹ thuật như xoay từ (word swap), đảo từ (back-translation).
+   - **Cross-validation:** Chia dữ liệu thành nhiều phần và huấn luyện mô hình trên các tập dữ liệu khác nhau, giúp giảm thiểu overfitting.
+
+### **3. Các Tham số Cần Điều chỉnh trong Mô hình NLP**
+
+   - **Learning Rate:** Điều chỉnh learning rate sẽ ảnh hưởng đến tốc độ và khả năng hội tụ của mô hình, một learning rate quá lớn có thể dẫn đến hội tụ không ổn định.
+   - **Batch Size:** Số lượng mẫu trong mỗi lần cập nhật trọng số, ảnh hưởng đến sự ổn định và tốc độ hội tụ. Batch size nhỏ thường cho phép mô hình học kỹ hơn nhưng có thể cần nhiều thời gian hơn.
+   - **Embedding Dimensions:** Kích thước vector từ ảnh hưởng đến khả năng của mô hình hiểu ngữ nghĩa từ, cần điều chỉnh dựa trên độ phức tạp của tác vụ và kích thước tập dữ liệu.
+   - **Dropout Rate:** Tỷ lệ các neuron bị bỏ qua trong mỗi lần huấn luyện, thường trong khoảng 0.2 đến 0.5, để tránh overfitting.
+   - **Sequence Length:** Độ dài của chuỗi từ đầu vào mà mô hình có thể xử lý, độ dài hợp lý sẽ giúp giảm tải tính toán và tránh mất thông tin quan trọng.
+   - **Number of Layers and Units:** Số lượng tầng và số neuron trong mạng, cần điều chỉnh phù hợp để đảm bảo mô hình không quá phức tạp gây overfitting, hoặc quá đơn giản gây underfitting.

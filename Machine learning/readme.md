@@ -107,3 +107,52 @@
      - **Random Forest hoặc Gradient Boosting:** Nếu cần hiệu năng cao và dữ liệu phức tạp, các mô hình ensemble như Random Forest hoặc XGBoost thường cho hiệu quả tốt.
      - **Cross-Validation:** Sử dụng K-Fold Cross-Validation để đánh giá mô hình trước khi chọn nhằm đảm bảo tính ổn định và giảm độ lệch.
 
+### 1. **Chọn lọc đặc trưng (Feature Selection)**
+   - **Câu hỏi:** Làm thế nào bạn chọn được các đặc trưng quan trọng cho mô hình?
+   - **Trả lời:** Chọn lọc đặc trưng là một bước giúp giảm độ phức tạp, tránh overfitting, và cải thiện tốc độ huấn luyện. Một số phương pháp chọn lọc đặc trưng gồm:
+     - **Phân tích tương quan (Correlation Analysis):** Kiểm tra mối quan hệ giữa các đặc trưng và nhãn để loại bỏ các đặc trưng không tương quan hoặc tương quan yếu.
+     - **Feature Importance từ mô hình:** Với các mô hình như Random Forest hoặc Gradient Boosting, chúng ta có thể kiểm tra độ quan trọng của từng đặc trưng. Đặc trưng nào ít quan trọng có thể được loại bỏ.
+     - **L1 Regularization (Lasso):** L1 regularization có thể đưa một số trọng số về 0, do đó giúp loại bỏ các đặc trưng không quan trọng.
+     - **Embedded Methods (nhúng):** Các thuật toán chọn lọc đặc trưng nhúng như **Forward Selection, Backward Elimination** cũng có thể giúp chọn những đặc trưng quan trọng nhất dựa vào hiệu suất mô hình.
+
+---
+
+### 2. **Xử lý dữ liệu mất cân bằng (Handling Imbalanced Data)**
+   - **Câu hỏi:** Bạn sẽ xử lý như thế nào khi dữ liệu bị mất cân bằng?
+   - **Trả lời:** Có nhiều cách để xử lý dữ liệu mất cân bằng, đặc biệt là khi làm việc với các mô hình phân loại. Một số kỹ thuật bao gồm:
+     - **Resampling (Under-sampling và Over-sampling):** Under-sampling giảm số lượng mẫu của lớp lớn, trong khi over-sampling tăng số lượng mẫu của lớp nhỏ để cân bằng tỷ lệ lớp. Phương pháp over-sampling với **SMOTE (Synthetic Minority Over-sampling Technique)** thường được sử dụng để tạo thêm các mẫu cho lớp nhỏ mà không làm tăng quá nhiều trùng lặp.
+     - **Class Weights:** Với một số mô hình như SVM hoặc neural networks, có thể sử dụng trọng số cho mỗi lớp để cân bằng độ ưu tiên giữa các lớp lớn và nhỏ.
+     - **Ensemble Methods:** Kỹ thuật ensemble như **Balanced Random Forest** và **EasyEnsemble** kết hợp under-sampling với các phương pháp phân lớp mạnh mẽ hơn, giúp cải thiện hiệu suất cho các dữ liệu mất cân bằng.
+     - **Metrics phù hợp:** Sử dụng các metrics như **Precision, Recall, F1-score**, và **ROC-AUC** giúp đánh giá tốt hơn với dữ liệu mất cân bằng, tránh bị ảnh hưởng bởi accuracy cao do lớp chiếm ưu thế.
+
+---
+
+### 3. **Điều chỉnh siêu tham số cho Regularization**
+   - **Câu hỏi:** Điều chỉnh siêu tham số cho Regularization (L1, L2) có tác dụng gì?
+   - **Trả lời:** Regularization là một kỹ thuật hữu ích để giảm overfitting. Siêu tham số của regularization, thường được ký hiệu là **λ (lambda)**, quyết định mức độ phạt cho trọng số lớn trong mô hình.
+     - **L1 Regularization (Lasso):** Làm một số trọng số bằng 0, tạo ra hiệu ứng chọn lọc đặc trưng (feature selection), rất hữu ích khi làm việc với nhiều đặc trưng.
+     - **L2 Regularization (Ridge):** Làm giảm các trọng số nhưng không đưa chúng về 0, giúp giảm độ phức tạp của mô hình mà vẫn duy trì tất cả đặc trưng.
+     - **Điều chỉnh siêu tham số (Hyperparameter Tuning):** Sử dụng **Grid Search** hoặc **Random Search** để chọn giá trị tối ưu của λ sao cho mô hình cân bằng giữa độ chính xác và khả năng tổng quát hóa.
+     - **Elastic Net:** Là sự kết hợp của cả L1 và L2, giúp đạt được lợi ích của cả hai kỹ thuật regularization. Elastic Net thường dùng trong trường hợp dữ liệu có nhiều đặc trưng và có mối quan hệ đa chiều phức tạp giữa chúng.
+
+---
+
+### 4. **Các phương pháp nâng cao để điều chỉnh mô hình (Advanced Model Tuning Techniques)**
+   - **Câu hỏi:** Bạn có thể áp dụng những phương pháp nâng cao nào để điều chỉnh mô hình?
+   - **Trả lời:** Để đạt hiệu suất tối đa cho mô hình, ngoài Grid Search và Random Search, có thể áp dụng các phương pháp sau:
+     - **Bayesian Optimization:** Thay vì thử nghiệm tất cả các giá trị, Bayesian Optimization dự đoán giá trị tiếp theo dựa trên kết quả hiện tại, tiết kiệm thời gian và tài nguyên hơn.
+     - **Hyperband:** Tập trung tài nguyên vào các mô hình có triển vọng, giúp tối ưu hóa trên các không gian siêu tham số lớn.
+     - **AutoML (Auto Machine Learning):** Công cụ AutoML tự động thử nghiệm và điều chỉnh siêu tham số để tìm cấu hình tối ưu cho mô hình.
+     - **Ensemble Tuning:** Trong các mô hình ensemble, điều chỉnh cấu hình của từng mô hình con cũng như siêu tham số của phương pháp ensemble (như voting, bagging, boosting) giúp tối ưu hóa hiệu suất tổng thể.
+
+---
+
+### 5. **Các khái niệm quan trọng khác cần quan tâm trong Machine Learning**
+   - **Câu hỏi:** Những khái niệm nào khác quan trọng trong Machine Learning mà bạn cần quan tâm?
+   - **Trả lời:**
+     - **Data Leakage:** Xảy ra khi có thông tin từ tập kiểm tra xuất hiện trong tập huấn luyện, dẫn đến việc đánh giá sai hiệu năng mô hình. Tránh leakage bằng cách xử lý trước khi chia dữ liệu hoặc cẩn thận khi xây dựng đặc trưng.
+     - **Gradient Exploding/Vanishing:** Đặc biệt trong deep learning, nếu gradient quá lớn hoặc quá nhỏ có thể dẫn đến vấn đề trong huấn luyện. **Gradient Clipping** hoặc **Batch Normalization** thường được áp dụng để xử lý vấn đề này.
+     - **Transfer Learning:** Khi dữ liệu hạn chế, sử dụng các mô hình đã được huấn luyện trước (pre-trained models) trên một dữ liệu lớn hơn giúp tận dụng kiến thức đã học từ bài toán khác.
+     - **Explainability (Giải thích mô hình):** Đặc biệt quan trọng trong các mô hình black-box như neural networks. Công cụ như **SHAP** và **LIME** giúp mô tả mô hình và làm rõ ảnh hưởng của từng đặc trưng lên dự đoán.
+     - **Data Drift:** Khi phân phối dữ liệu thay đổi theo thời gian (data drift), mô hình cần được cập nhật hoặc tái huấn luyện. Phát hiện và quản lý data drift là một phần quan trọng trong triển khai machine learning.
+

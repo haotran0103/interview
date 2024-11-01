@@ -34,6 +34,63 @@ Dưới đây là phần giải thích chi tiết và dễ hiểu về **Làm vi
      - Nếu vấn đề vẫn không được giải quyết, em sẽ phải **báo cáo với quản lý cấp cao** để tìm giải pháp khác.
    - Ví dụ, có lần một thành viên gặp khó khăn trong việc hoàn thành nhiệm vụ vì thiếu kỹ năng về Machine Learning, em đã yêu cầu một đồng nghiệp hỗ trợ và giúp người đó vượt qua thử thách.
 
+
+### 1. **Xung đột khi làm việc nhóm với Git**
+   - **Câu hỏi:** Bạn và đồng nghiệp cùng chỉnh sửa một hàm, và các thay đổi của đồng nghiệp xung đột với thay đổi của bạn. Bạn sẽ xử lý thế nào?
+   - **Cách trả lời:** Tôi sẽ bắt đầu bằng cách kéo các thay đổi từ nhánh của đồng nghiệp để xem sự khác biệt giữa hai phiên bản của hàm. Sau đó, tôi sẽ liên hệ với đồng nghiệp để hiểu rõ lý do và yêu cầu thay đổi của bạn ấy. Nếu cả hai phiên bản đều cần thiết, tôi sẽ tìm cách tích hợp các thay đổi của cả hai bên. Cuối cùng, tôi sẽ tạo một commit mới chứa phiên bản hợp nhất để đảm bảo cả hai nhu cầu đều được đáp ứng mà không ảnh hưởng đến mã chung.
+
 ---
 
-Các giải thích trên nhấn mạnh cách mà em đã áp dụng các kỹ năng làm việc nhóm để giải quyết mâu thuẫn, đảm bảo sự hợp tác hiệu quả, và quản lý công việc một cách tối ưu. Kỹ năng làm việc nhóm đóng vai trò rất quan trọng trong việc hoàn thành các dự án phức tạp, đặc biệt trong môi trường yêu cầu cao về AI.
+### 2. **Quy trình làm việc với Git khi đóng góp vào dự án lớn**
+   - **Câu hỏi:** Bạn sẽ tổ chức quy trình làm việc với Git thế nào trong một dự án lớn?
+   - **Cách trả lời:** Tôi thường sử dụng nhánh `main` hoặc `master` cho phiên bản ổn định và nhánh `develop` cho các tính năng đang phát triển. Mỗi tính năng mới sẽ có nhánh riêng từ `develop` để tránh xung đột mã. Khi tính năng hoàn thành và được kiểm tra kỹ, tôi sẽ merge vào `develop`. Cuối cùng, sau khi kiểm thử kỹ lưỡng, tôi sẽ merge `develop` vào `main`. Quy trình này giúp đảm bảo mỗi tính năng đều được tách biệt và dễ dàng tích hợp vào hệ thống khi cần.
+
+---
+
+### 3. **Quản lý commit và thông tin lịch sử**
+   - **Câu hỏi:** Bạn sẽ tổ chức commit thế nào để giúp đồng đội dễ theo dõi lịch sử thay đổi?
+   - **Cách trả lời:** Tôi sẽ tạo commit với thông tin rõ ràng và tách biệt từng phần thay đổi theo tính năng hoặc lỗi cụ thể. Mỗi commit sẽ có tiêu đề ngắn gọn nhưng mô tả chính xác thay đổi và chi tiết bổ sung nếu cần. Ví dụ: "Fix bug in data loading process – resolved null value issue." Ngoài ra, tôi sẽ tránh các commit chung chung như “update” hoặc “fix” để giúp mọi người dễ hiểu lịch sử thay đổi mà không cần xem chi tiết từng commit.
+
+---
+
+### 4. **Cách xử lý khi cần chỉnh sửa commit đã thực hiện**
+   - **Câu hỏi:** Nếu phát hiện commit trước có lỗi và muốn sửa lại, bạn sẽ làm gì?
+   - **Cách trả lời:** Nếu commit đã được push lên nhánh chính, tôi sẽ tạo một commit mới để sửa lỗi, tránh làm ảnh hưởng đến lịch sử của những người khác. Nếu commit chưa được push, tôi có thể sử dụng `git commit --amend` để sửa nội dung hoặc tên commit cho chính xác, rồi push lại. Cách này giúp giữ lịch sử commit rõ ràng và tránh gây xáo trộn cho đồng đội.
+
+---
+
+### 5. **Chiến lược khi phải gỡ lỗi một commit lỗi gây ảnh hưởng đến nhánh chính**
+   - **Câu hỏi:** Nếu một commit gây lỗi trên nhánh chính, bạn sẽ xử lý thế nào?
+   - **Cách trả lời:** Đầu tiên, tôi sẽ xác định commit gây lỗi bằng cách xem lịch sử của nhánh và sử dụng lệnh `git bisect` nếu lỗi khó xác định. Khi tìm ra commit, tôi có thể tạo một commit mới để sửa lỗi hoặc nếu commit không cần thiết, tôi sẽ dùng `git revert` để hủy bỏ thay đổi đó. Sử dụng `git revert` giúp giữ nguyên lịch sử commit và tránh ảnh hưởng đến các commit khác trong nhánh.
+
+---
+
+### 6. **Quy trình xử lý pull request (PR) và review mã trong nhóm**
+   - **Câu hỏi:** Bạn sẽ xử lý pull request của đồng nghiệp như thế nào trong quy trình làm việc nhóm?
+   - **Cách trả lời:** Khi nhận được pull request, tôi sẽ đọc mã để hiểu rõ logic và chạy thử nghiệm nếu cần. Tôi sẽ kiểm tra xem mã có tuân thủ tiêu chuẩn của dự án không, và nếu phát hiện bất kỳ vấn đề nào (lỗi, thiếu tài liệu, hiệu suất), tôi sẽ viết nhận xét cụ thể và gợi ý cải tiến. Sau khi mã đáp ứng đủ yêu cầu và đã được chỉnh sửa, tôi sẽ chấp nhận và thực hiện merge PR vào nhánh chính. Việc này đảm bảo chất lượng mã trước khi hợp nhất.
+
+---
+
+### 7. **Cách xử lý xung đột khi merge nhánh trong Git**
+   - **Câu hỏi:** Khi merge nhánh và gặp xung đột, bạn sẽ xử lý thế nào?
+   - **Cách trả lời:** Tôi sẽ chạy `git status` để xem chi tiết các file xung đột và chỉnh sửa từng file để hợp nhất thay đổi. Tôi sẽ giữ những thay đổi quan trọng từ cả hai nhánh hoặc liên hệ với người khác nếu cần xác nhận thay đổi. Sau khi chỉnh sửa, tôi sẽ lưu và dùng `git add` để đánh dấu các file đã giải quyết xung đột, tiếp theo dùng `git commit` để hoàn tất việc merge.
+
+---
+
+### 8. **Giải pháp khi một thành viên đẩy lên commit phá vỡ tính ổn định của hệ thống**
+   - **Câu hỏi:** Nếu một commit gây ra lỗi và ảnh hưởng đến hệ thống, bạn sẽ làm gì để khôi phục tính ổn định?
+   - **Cách trả lời:** Tôi sẽ kiểm tra commit đó và xác nhận các lỗi nó gây ra. Sau đó, tôi có thể dùng `git revert` để tạo một commit mới hủy bỏ commit lỗi mà không thay đổi lịch sử nhánh chính. Nếu commit ảnh hưởng đến sản phẩm đã triển khai, tôi sẽ thông báo cho nhóm và nhanh chóng triển khai bản sửa lỗi để giảm thiểu ảnh hưởng.
+
+---
+
+### 9. **Cách quản lý các phiên bản của dự án với Git**
+   - **Câu hỏi:** Làm thế nào để bạn quản lý các phiên bản khác nhau của dự án bằng Git?
+   - **Cách trả lời:** Tôi sẽ tạo các tag cho từng phiên bản quan trọng của dự án (như `v1.0`, `v1.1`), đặc biệt là khi phát hành hoặc triển khai. Điều này giúp chúng tôi dễ dàng quay lại hoặc xem xét phiên bản cũ khi cần. Trước khi phát hành một phiên bản, tôi thường xem xét lại mã để đảm bảo các tính năng và sửa lỗi được tích hợp đầy đủ. Tagging cũng giúp người khác trong nhóm hoặc khách hàng biết được phiên bản nào đang được sử dụng.
+
+---
+
+### 10. **Chiến lược phát triển nhánh để giảm xung đột trong Git**
+   - **Câu hỏi:** Bạn sẽ áp dụng chiến lược nhánh nào để giảm thiểu xung đột mã khi làm việc nhóm?
+   - **Cách trả lời:** Tôi sẽ áp dụng mô hình Git Flow, với nhánh `main` hoặc `master` là nhánh sản phẩm chính, `develop` cho các tính năng đang phát triển, và mỗi tính năng/phần mới sẽ có một nhánh riêng. Điều này giúp tách biệt thay đổi của từng thành viên và giảm thiểu xung đột. Khi phát hiện xung đột, tôi có thể giải quyết chúng trước khi hợp nhất vào nhánh `develop` hoặc `main`, đảm bảo hệ thống luôn ổn định.
+
+

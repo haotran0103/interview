@@ -75,3 +75,60 @@ Dưới đây là một số câu hỏi bổ sung liên quan đến OOP ở mứ
 ### 6. **Refactoring trong OOP**
    - **Câu hỏi:** Bạn đã từng áp dụng refactoring trong một dự án AI như thế nào để cải thiện hiệu suất hoặc làm mã dễ đọc hơn?
    - **Gợi ý trả lời:** Khi làm việc với dự án AI lớn, tôi thường xuyên thực hiện refactoring để chia mã thành các lớp và phương thức nhỏ, dễ quản lý và tái sử dụng. Ví dụ, trong một dự án NLP, tôi tách các chức năng xử lý văn bản (như tokenization, stemming) ra thành các lớp riêng biệt. Refactoring này giúp mã trở nên dễ đọc và dễ kiểm thử hơn.
+
+### 1. **Sự khác biệt giữa Thread và Process**
+   - **Câu hỏi:** Bạn có thể giải thích sự khác biệt giữa thread và process không?
+   - **Gợi ý trả lời:** Process là một chương trình đang chạy và có không gian bộ nhớ riêng biệt. Mỗi process có thể chứa nhiều thread chia sẻ cùng bộ nhớ của process đó. Process thường được dùng khi cần chạy các tác vụ độc lập hoặc xử lý song song lớn. Thread là luồng thực thi bên trong một process và chia sẻ bộ nhớ với các thread khác trong cùng process. Điều này giúp threads giao tiếp nhanh hơn, nhưng cũng có thể dẫn đến lỗi nếu các thread cùng truy cập vào tài nguyên chia sẻ mà không đồng bộ hóa đúng cách.
+
+---
+
+### 2. **Khi nào nên sử dụng Thread thay vì Process?**
+   - **Câu hỏi:** Bạn sẽ sử dụng thread hay process trong dự án AI? Tại sao?
+   - **Gợi ý trả lời:** Khi xử lý các tác vụ cần chia sẻ bộ nhớ, tôi sẽ sử dụng threads để tiết kiệm tài nguyên và tận dụng chia sẻ bộ nhớ. Ví dụ, trong một mô hình xử lý hình ảnh, tôi có thể dùng threads để tăng tốc độ xử lý ảnh song song nhưng vẫn dùng chung các tham số mô hình. Tuy nhiên, nếu cần thực thi các mô hình hoặc quy trình độc lập, như huấn luyện song song nhiều mô hình khác nhau, tôi sẽ chọn sử dụng process vì các process có không gian bộ nhớ tách biệt, giúp tránh lỗi xung đột bộ nhớ.
+
+---
+
+### 3. **Deadlock và cách phòng tránh**
+   - **Câu hỏi:** Deadlock là gì? Bạn có thể giải thích cách tránh deadlock trong các ứng dụng đa luồng không?
+   - **Gợi ý trả lời:** Deadlock xảy ra khi hai hoặc nhiều threads chờ nhau để giải phóng tài nguyên mà thread kia đang giữ, khiến tất cả đều bị treo. Để tránh deadlock, tôi sử dụng các nguyên tắc sau:
+     - **Thứ tự khóa cố định:** Đảm bảo các threads yêu cầu tài nguyên theo cùng thứ tự.
+     - **Cài đặt timeout:** Đặt thời gian chờ cụ thể để thread thoát ra nếu không lấy được tài nguyên.
+     - **Tránh giữ nhiều khóa cùng lúc:** Chỉ giữ tài nguyên trong thời gian ngắn nhất có thể, giải phóng chúng khi không cần thiết.
+   - Ví dụ, khi làm việc với xử lý dữ liệu lớn, tôi luôn đặt một thứ tự cố định khi threads truy cập vào dữ liệu để tránh trường hợp deadlock.
+
+---
+
+### 4. **Thread Safety là gì?**
+   - **Câu hỏi:** Bạn có thể giải thích thread safety là gì và cách đảm bảo điều đó?
+   - **Gợi ý trả lời:** Thread safety có nghĩa là mã của bạn hoạt động đúng và không gặp lỗi khi có nhiều threads truy cập đồng thời. Để đảm bảo thread safety, tôi thường dùng các phương pháp đồng bộ hóa như khóa (locks), vùng nhớ nguyên tử (atomic variables), và các cấu trúc dữ liệu an toàn cho đa luồng (thread-safe data structures). Trong một dự án AI, khi xử lý dữ liệu lớn với nhiều threads, tôi dùng các khóa để đảm bảo chỉ một thread có quyền truy cập vào tài nguyên cụ thể tại một thời điểm, giảm thiểu khả năng xảy ra lỗi.
+
+---
+
+### 5. **Race Condition và cách xử lý**
+   - **Câu hỏi:** Race condition là gì, và bạn xử lý nó như thế nào?
+   - **Gợi ý trả lời:** Race condition xảy ra khi nhiều threads truy cập và thay đổi một tài nguyên chung cùng lúc, dẫn đến kết quả không mong đợi. Tôi xử lý điều này bằng cách sử dụng đồng bộ hóa để đảm bảo mỗi thread có quyền truy cập duy nhất vào tài nguyên tại một thời điểm. Ví dụ, trong một hệ thống xử lý song song, khi các threads cần cập nhật tham số của một mô hình, tôi sẽ dùng cơ chế khóa để tránh việc các threads ghi đè lên kết quả của nhau.
+
+---
+
+### 6. **Các phương thức giao tiếp giữa các process (IPC)**
+   - **Câu hỏi:** Bạn sẽ giao tiếp giữa các process như thế nào trong một hệ thống AI?
+   - **Gợi ý trả lời:** Tôi có thể sử dụng các phương pháp giao tiếp giữa các process (Inter-Process Communication - IPC) như hàng đợi (queues), pipe, và shared memory để truyền tải thông tin giữa các process. Ví dụ, khi huấn luyện các mô hình độc lập và cần gửi kết quả huấn luyện từ các process riêng lẻ đến một process chính, tôi có thể dùng queue để chuyển dữ liệu một cách an toàn và hiệu quả.
+
+---
+
+### 7. **Concurrent Programming vs Parallel Programming**
+   - **Câu hỏi:** Bạn có thể giải thích sự khác nhau giữa lập trình song song (parallel) và đồng thời (concurrent) không?
+   - **Gợi ý trả lời:** Lập trình đồng thời (concurrent programming) cho phép thực hiện nhiều tác vụ trong cùng một khoảng thời gian, nhưng không nhất thiết phải đồng thời chính xác (có thể xen kẽ). Lập trình song song (parallel programming) thực hiện các tác vụ cùng một lúc, thường trên nhiều lõi CPU. Trong một hệ thống AI, nếu huấn luyện nhiều mô hình trên nhiều lõi CPU, đó là song song; nếu lên lịch cho nhiều tác vụ trên một lõi duy nhất và lần lượt thực thi chúng, đó là đồng thời.
+
+---
+
+### 8. **Global Interpreter Lock (GIL) trong Python**
+   - **Câu hỏi:** Bạn biết gì về Global Interpreter Lock (GIL) trong Python và ảnh hưởng của nó đến đa luồng?
+   - **Gợi ý trả lời:** GIL là một cơ chế trong Python để đảm bảo rằng chỉ có một thread thực thi mã Python một lúc, điều này giúp quản lý bộ nhớ an toàn hơn. Tuy nhiên, nó cũng hạn chế hiệu suất khi chạy đa luồng trên các CPU đa lõi vì chỉ một thread có thể chạy tại một thời điểm. Để khắc phục, tôi sẽ dùng đa tiến trình thay vì đa luồng khi thực hiện các tác vụ nặng về CPU, hoặc sử dụng các thư viện không bị giới hạn bởi GIL như `multiprocessing` hay `concurrent.futures`.
+
+---
+
+### 9. **Khi nào dùng đa tiến trình thay vì đa luồng?**
+   - **Câu hỏi:** Trong dự án AI, khi nào bạn chọn dùng đa tiến trình thay vì đa luồng?
+   - **Gợi ý trả lời:** Đa tiến trình phù hợp cho các tác vụ nặng về CPU và không yêu cầu chia sẻ bộ nhớ, vì mỗi tiến trình có không gian bộ nhớ riêng. Trong xử lý ảnh lớn, ví dụ khi áp dụng các thuật toán phức tạp trên nhiều ảnh, tôi sẽ sử dụng đa tiến trình để phân chia ảnh giữa các tiến trình, tận dụng tối đa CPU mà không phải lo lắng về chia sẻ bộ nhớ. Đa luồng phù hợp hơn với các tác vụ I/O như đọc ghi file, nơi mà các thread có thể chạy xen kẽ mà không cần tài nguyên CPU nhiều.
+

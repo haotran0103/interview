@@ -1,5 +1,3 @@
-Dưới đây là phần giải thích chi tiết và dễ hiểu về **Machine Learning**:
-
 ### 1. **Bạn có thể giải thích cách lựa chọn giữa các thuật toán machine learning khác nhau cho một bài toán cụ thể không?**
    - Khi lựa chọn thuật toán machine learning, em thường xem xét một số yếu tố chính:
      - **Loại bài toán**: Đầu tiên, em xác định xem đó là bài toán phân loại, hồi quy, clustering (phân cụm) hay một bài toán khác. Ví dụ, nếu cần phân loại email là spam hay không, em sẽ chọn các thuật toán phân loại như **Logistic Regression**, **Random Forest** hoặc **SVM**.
@@ -37,7 +35,75 @@ Dưới đây là phần giải thích chi tiết và dễ hiểu về **Machine
 ### 6. **Trong dự án machine learning, bạn đã từng sử dụng kỹ thuật Cross-validation như thế nào để đánh giá mô hình?**
    - **Cross-validation** là một kỹ thuật để đánh giá hiệu suất của mô hình bằng cách chia dữ liệu thành nhiều phần (folds). Mỗi lần huấn luyện, một phần được giữ lại làm tập kiểm thử, các phần còn lại dùng để huấn luyện, và quá trình này lặp lại nhiều lần. **K-fold cross-validation** là phương pháp phổ biến, thường chia dữ liệu thành K phần.
    - **Ví dụ**: Trong một dự án phân tích cảm xúc, em đã sử dụng **5-fold cross-validation** để đảm bảo rằng mô hình không chỉ hoạt động tốt trên một tập duy nhất mà có khả năng tổng quát trên nhiều phần khác nhau của dữ liệu. Điều này giúp đánh giá mô hình một cách công bằng và tránh bias do chia dữ liệu không đồng đều.
+   - 
+### 1. **Gradient Descent và các biến thể của nó**
+   - **Câu hỏi:** Bạn có thể giải thích cách hoạt động của Gradient Descent và các biến thể của nó không?
+   - **Trả lời:** Gradient Descent là phương pháp tối ưu hóa giúp mô hình học bằng cách điều chỉnh trọng số để giảm lỗi. Trong quá trình học, chúng ta tính đạo hàm của hàm lỗi (loss function) theo các trọng số và đi ngược hướng của đạo hàm đó để tìm giá trị tối ưu.
+     - **SGD (Stochastic Gradient Descent):** Thay vì dùng toàn bộ dữ liệu, SGD chỉ dùng một mẫu mỗi lần để cập nhật trọng số. Điều này giúp tăng tốc nhưng tạo sự dao động trong việc tìm điểm tối ưu.
+     - **Mini-batch Gradient Descent:** Kết hợp giữa toàn bộ dữ liệu và SGD bằng cách lấy một nhóm nhỏ dữ liệu (mini-batch) mỗi lần cập nhật. Phương pháp này giảm dao động mà vẫn có tốc độ nhanh.
+     - **Adam (Adaptive Moment Estimation):** Adam điều chỉnh tốc độ học dựa trên các thông số trong quá khứ, giúp tối ưu ổn định và nhanh hơn cho các mô hình phức tạp như mạng neural.
 
 ---
 
-Các giải thích trên cung cấp cái nhìn chi tiết về các kỹ thuật và cách ứng dụng các thuật toán Machine Learning trong thực tế. Những kỹ thuật như regularization, cross-validation, và xử lý dữ liệu mất cân bằng đều rất quan trọng để đảm bảo mô hình không chỉ chính xác mà còn ổn định khi triển khai trên dữ liệu thực tế.
+### 2. **Hàm lỗi phổ biến và ứng dụng của chúng**
+   - **Câu hỏi:** Tại sao Cross-Entropy Loss thường dùng trong phân loại, còn Mean Squared Error (MSE) trong hồi quy?
+   - **Trả lời:** Cross-Entropy đo lường độ sai lệch giữa xác suất dự đoán của mô hình và nhãn thực tế, rất phù hợp để đánh giá phân loại nhị phân hoặc nhiều lớp. Nó phạt nhiều khi dự đoán sai với độ tin cậy cao, thúc đẩy mô hình dự đoán tốt hơn.
+     - **MSE (Mean Squared Error):** Là trung bình bình phương các sai số giữa dự đoán và thực tế, thường dùng trong hồi quy. MSE nhạy với sai số lớn, giúp mô hình điều chỉnh mạnh nếu dự đoán lệch xa.
+     - Các hàm lỗi khác, như **MAE (Mean Absolute Error)**, ít nhạy với sai số lớn nên thường dùng khi muốn tránh các ảnh hưởng của ngoại lệ (outliers).
+
+---
+
+### 3. **Bias-Variance Trade-Off**
+   - **Câu hỏi:** Cách nào giúp cân bằng giữa bias và variance?
+   - **Trả lời:** Bias là lỗi từ việc đơn giản hóa mô hình quá mức, còn variance là lỗi từ việc điều chỉnh mô hình quá sát dữ liệu huấn luyện. Để đạt cân bằng, một mô hình phải đơn giản đủ để tránh overfitting nhưng vẫn đủ phức tạp để học dữ liệu tốt.
+     - **Giải pháp:** Chọn một mô hình đủ phức tạp hoặc sử dụng các kỹ thuật như **regularization** (L2 hoặc L1) để giảm độ phức tạp và giảm variance.
+     - **Ví dụ:** Nếu dùng một mô hình hồi quy bậc cao với quá nhiều biến, có thể xuất hiện high variance (overfitting), nhưng với mô hình tuyến tính, sẽ có high bias (underfitting). Do đó, dùng mô hình bậc vừa phải và regularization sẽ giúp cân bằng.
+
+---
+
+### 4. **Các phương pháp chống Overfitting**
+   - **Câu hỏi:** Bạn sẽ áp dụng phương pháp nào để chống overfitting?
+   - **Trả lời:** Một số phương pháp phổ biến:
+     - **Regularization (L1, L2):** Thêm một hệ số phạt cho các trọng số lớn vào hàm lỗi, khiến mô hình ưu tiên các trọng số nhỏ và giảm khả năng overfitting.
+     - **Dropout:** Trong neural networks, ẩn ngẫu nhiên một số nút trong mỗi lần huấn luyện giúp mạng không quá phụ thuộc vào một số đặc điểm nhất định của dữ liệu.
+     - **Data Augmentation:** Khi dữ liệu không đủ, tạo thêm dữ liệu từ các biến thể (xoay, dịch, phóng to ảnh...) giúp mô hình học tổng quát hơn.
+     - **Early Stopping:** Dừng huấn luyện khi hiệu quả trên tập kiểm tra bắt đầu giảm, ngăn mô hình học quá sâu và bắt đầu nhớ các điểm nhiễu.
+
+---
+
+### 5. **Điều chỉnh và chọn mô hình (Model Tuning and Selection)**
+   - **Câu hỏi:** Làm thế nào bạn điều chỉnh hyperparameters và chọn mô hình tốt nhất?
+   - **Trả lời:** Điều chỉnh hyperparameters là một phần quan trọng để đạt được hiệu năng tối ưu cho mô hình. Các phương pháp phổ biến:
+     - **Grid Search:** Thử tất cả các kết hợp của các hyperparameters trong một khoảng nhất định. Tuy nhiên, phương pháp này tốn kém nếu có quá nhiều biến.
+     - **Random Search:** Thử ngẫu nhiên một số lượng giới hạn kết hợp, thường tiết kiệm thời gian hơn Grid Search.
+     - **Bayesian Optimization:** Dựa trên dữ liệu trước đó để quyết định thử kết hợp nào, giảm số lượng thử nghiệm cần thiết.
+     - **Cross-Validation (K-Fold):** Để chọn mô hình, chia nhỏ dữ liệu thành nhiều phần và huấn luyện trên các tập con, sau đó lấy trung bình của các lần huấn luyện để đảm bảo tính ổn định.
+
+---
+
+### 6. **Metrics đánh giá hiệu suất mô hình (Performance Metrics)**
+   - **Câu hỏi:** Bạn sẽ dùng chỉ số nào khi dữ liệu bị mất cân đối?
+   - **Trả lời:** Khi dữ liệu mất cân đối, các chỉ số đơn giản như accuracy sẽ không phản ánh tốt chất lượng mô hình.
+     - **Precision và Recall:** Precision đo tỷ lệ chính xác trong số các dự đoán dương, còn Recall đo tỷ lệ đúng trong số các trường hợp thực tế là dương. Với dữ liệu mất cân đối, đây là các chỉ số quan trọng vì chúng đánh giá mức độ phát hiện và loại bỏ chính xác.
+     - **F1-score:** Trung bình điều hòa giữa Precision và Recall, giúp cân bằng hai chỉ số này, đặc biệt hữu ích khi cần cân nhắc cả hai mặt của vấn đề.
+     - **ROC-AUC (Area Under the ROC Curve):** Đo lường khả năng phân biệt giữa các lớp, cho biết mức độ chính xác của dự đoán với ngưỡng thay đổi.
+
+---
+
+### 7. **Regularization Methods và Normalization Techniques**
+   - **Câu hỏi:** Regularization giúp giảm overfitting bằng cách nào?
+   - **Trả lời:** Regularization (L1, L2) giúp giới hạn độ phức tạp của mô hình bằng cách thêm một hệ số phạt cho các trọng số lớn. Điều này giúp mô hình tránh ghi nhớ các mẫu cụ thể mà thay vào đó học các đặc trưng chung của dữ liệu.
+     - **L2 Regularization (Ridge):** Phạt bình phương các trọng số, làm giảm kích thước của chúng.
+     - **L1 Regularization (Lasso):** Phạt trị tuyệt đối các trọng số, có xu hướng làm một số trọng số bằng 0, dẫn đến chọn lọc đặc trưng (feature selection).
+     - **Normalization:** Chuẩn hóa dữ liệu (như Min-Max Scaling, Z-score) giúp mô hình hội tụ nhanh hơn và tránh trường hợp các biến có tầm quan trọng không đồng đều do khác biệt về giá trị.
+
+---
+
+### 8. **Cách đánh giá và lựa chọn mô hình (Model Evaluation and Selection)**
+   - **Câu hỏi:** Bạn sẽ chọn mô hình nào cho một bài toán hồi quy và tại sao?
+   - **Trả lời:** Tùy thuộc vào dữ liệu và yêu cầu bài toán, lựa chọn mô hình có thể khác nhau:
+     - **Hồi quy tuyến tính (Linear Regression):** Nếu dữ liệu có xu hướng tuyến tính. Đây là mô hình đơn giản, dễ giải thích.
+     - **Decision Tree Regression:** Cho dữ liệu phi tuyến tính và dễ hiểu bằng các quy tắc phân nhánh.
+     - **Random Forest hoặc Gradient Boosting:** Nếu cần hiệu năng cao và dữ liệu phức tạp, các mô hình ensemble như Random Forest hoặc XGBoost thường cho hiệu quả tốt.
+     - **Cross-Validation:** Sử dụng K-Fold Cross-Validation để đánh giá mô hình trước khi chọn nhằm đảm bảo tính ổn định và giảm độ lệch.
+

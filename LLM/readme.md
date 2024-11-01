@@ -1,5 +1,3 @@
-Dưới đây là phần giải thích chi tiết về **Large Language Models (LLM)**, với cách trình bày dựa trên các ví dụ từ các dự án thực tế mà em đã thực hiện:
-
 ### 1. **Bạn có thể giải thích sự khác nhau giữa GPT và BERT không? Khi nào bạn nên sử dụng mỗi mô hình?**
    - **BERT** (Bidirectional Encoder Representations from Transformers) là mô hình được thiết kế để hiểu ngữ cảnh của từ trong một câu theo cả hai chiều (trái sang phải và phải sang trái), giúp BERT rất tốt cho các bài toán cần hiểu ngữ nghĩa như **phân loại văn bản**, **trả lời câu hỏi**, **phân tích cảm xúc**.
    - **GPT** (Generative Pre-trained Transformer) là mô hình thiên về sinh văn bản (text generation), được huấn luyện để dự đoán từ tiếp theo trong chuỗi văn bản, tức là chỉ hiểu theo một chiều (từ trái sang phải). GPT mạnh mẽ trong các bài toán yêu cầu **sinh nội dung**, **hoàn thành câu**, **chatbot**.
@@ -44,70 +42,89 @@ Dưới đây là phần giải thích chi tiết về **Large Language Models (
    - **Ví dụ thực tế**: Trong dự án **chatbot hỗ trợ sinh viên**, em đã sử dụng kỹ thuật quantization để giảm kích thước mô hình GPT-3, giúp chatbot trả lời nhanh hơn mà vẫn giữ được chất lượng câu trả lời ở mức chấp nhận được.
 Dưới đây là bộ câu hỏi mới cho từng phần như bạn yêu cầu. Mỗi phần gồm 6 câu hỏi để đảm bảo buổi phỏng vấn dài khoảng 1 tiếng rưỡi.
 
-### 1. **Ngôn ngữ lập trình (hiểu sâu)**
-1. Khi làm việc với Python, bạn đã bao giờ gặp vấn đề về quản lý phiên bản thư viện chưa? Bạn xử lý vấn đề đó như thế nào?
-2. Trong Python, làm sao bạn có thể tối ưu hóa tốc độ thực thi cho một đoạn mã tính toán nặng mà không phải chuyển sang ngôn ngữ khác?
-3. Bạn có thể giải thích sự khác biệt giữa multithreading và multiprocessing trong Python, và khi nào bạn sử dụng mỗi loại?
-4. Khi bạn làm việc với các biểu thức lambda trong Python, bạn thấy lợi ích của chúng so với việc sử dụng các hàm thông thường như thế nào?
-5. Bạn đã bao giờ phải tối ưu hóa một đoạn code Python để tiết kiệm bộ nhớ chưa? Bạn đã sử dụng những kỹ thuật nào?
-6. Làm thế nào bạn xử lý ngoại lệ (exception) trong các hệ thống lớn và đảm bảo rằng những lỗi này không gây gián đoạn hệ thống?
-
-### 2. **Cấu trúc dữ liệu và giải thuật**
-1. Bạn có thể giải thích cách hoạt động của một Skip List không? Nó có lợi thế gì so với các cấu trúc dữ liệu khác như cây nhị phân?
-2. Khi nào bạn nên sử dụng Trie thay vì HashMap để lưu trữ dữ liệu? Hãy mô tả một tình huống thực tế mà bạn đã sử dụng Trie.
-3. Bạn đã từng làm việc với các thuật toán phân tán (distributed algorithms) chưa? Làm sao bạn đảm bảo tính chính xác và hiệu quả của chúng trong một môi trường phân tán?
-4. Bạn có thể mô tả một tình huống cụ thể mà bạn đã phải tối ưu hóa một thuật toán O(n^2) thành O(n log n) hoặc nhanh hơn không?
-5. Làm thế nào bạn đánh giá tính hiệu quả của một thuật toán ngoài độ phức tạp thời gian (time complexity)? Hãy đưa ra ví dụ cụ thể.
-6. Bạn đã bao giờ phải thiết kế một cấu trúc dữ liệu tùy chỉnh để giải quyết một bài toán cụ thể chưa? Hãy mô tả quá trình bạn thực hiện.
-
-### 3. **Quy trình phát triển sản phẩm**
-1. Khi bạn tham gia vào việc định nghĩa các yêu cầu của dự án, làm sao bạn cân bằng giữa yêu cầu kỹ thuật và yêu cầu kinh doanh của khách hàng?
-2. Bạn đã bao giờ gặp trường hợp phải tích hợp một hệ thống cũ vào một sản phẩm mới chưa? Bạn giải quyết vấn đề tương thích thế nào?
-3. Làm thế nào để bạn quản lý sự thay đổi yêu cầu của khách hàng mà không ảnh hưởng đến tiến độ và chất lượng của dự án?
-4. Khi bạn làm việc với một dự án lớn có nhiều nhóm khác nhau tham gia, làm sao bạn đảm bảo sự phối hợp hiệu quả giữa các nhóm?
-5. Bạn đã bao giờ phải đối mặt với một dự án có yêu cầu mơ hồ hoặc chưa rõ ràng ngay từ đầu chưa? Bạn làm thế nào để xử lý và xác định đúng hướng phát triển?
-6. Bạn đã bao giờ phải cải tiến một quy trình làm việc trong dự án để tăng hiệu suất và chất lượng sản phẩm chưa? Hãy mô tả cách bạn thực hiện điều đó.
-
-### 4. **Làm việc nhóm**
-1. Khi làm việc nhóm, làm sao bạn cân bằng giữa vai trò của một người lãnh đạo và một người đóng góp kỹ thuật?
-2. Bạn đã bao giờ phải quản lý một nhóm đa dạng về kỹ năng và kinh nghiệm chưa? Làm sao bạn đảm bảo rằng mọi người đều đóng góp tốt nhất cho dự án?
-3. Bạn sẽ làm gì nếu có thành viên trong nhóm không đồng ý với cách tiếp cận kỹ thuật mà bạn đưa ra, và điều này ảnh hưởng đến tiến độ dự án?
-4. Bạn đã bao giờ phải xử lý tình huống mà nhóm của bạn bị phân tán (distributed team)? Bạn đã tổ chức và quản lý công việc như thế nào?
-5. Khi làm việc với một dự án có deadline rất gấp, bạn làm sao để động viên nhóm mà không làm tăng căng thẳng?
-6. Bạn đã bao giờ gặp phải tình huống mà một thành viên trong nhóm không thực hiện nhiệm vụ được giao đúng thời hạn chưa? Bạn xử lý tình huống này như thế nào để giữ tinh thần đồng đội?
-
-### 5. **Machine Learning**
-1. Bạn đã bao giờ phải đối mặt với việc mô hình machine learning của mình không thể học được gì từ dữ liệu (underfitting)? Bạn đã làm gì để khắc phục?
-2. Trong một bài toán mà có rất nhiều đặc trưng, bạn đã sử dụng kỹ thuật nào để giảm số lượng đặc trưng và cải thiện hiệu suất mô hình?
-3. Bạn có thể giải thích cách bạn tối ưu hóa một pipeline machine learning cho cả thời gian huấn luyện và thời gian dự đoán không?
-4. Khi mô hình của bạn bị lỗi nghiêm trọng (bad predictions), bạn thường thực hiện những bước nào để xác định nguyên nhân?
-5. Bạn đã bao giờ phải làm việc với mô hình online learning chưa? Làm thế nào để bạn thiết lập và duy trì mô hình này trong sản xuất?
-6. Bạn có thể giải thích làm sao bạn thực hiện việc chọn lựa mô hình tốt nhất khi có nhiều mô hình khác nhau trong một dự án?
-
-### 6. **Computer Vision**
-1. Bạn đã bao giờ phải sử dụng kỹ thuật Transfer Learning trong các dự án computer vision chưa? Hãy mô tả quá trình bạn thực hiện.
-2. Khi xử lý một dự án về object detection, làm sao bạn đảm bảo rằng mô hình của bạn có thể phát hiện đối tượng ở các điều kiện ánh sáng và góc độ khác nhau?
-3. Bạn đã bao giờ phải xử lý vấn đề về biến đổi hình học (geometric transformation) trong một dự án computer vision chưa? Bạn xử lý nó như thế nào?
-4. Khi bạn cần làm việc với video thay vì hình ảnh tĩnh, bạn đã phải điều chỉnh mô hình của mình như thế nào để xử lý thông tin từ các khung hình liên tiếp?
-5. Bạn có thể mô tả cách bạn sử dụng các kỹ thuật augmentation để tăng độ chính xác của mô hình computer vision không?
-6. Bạn đã bao giờ phải giải quyết bài toán segmentation với nhiều đối tượng trong cùng một hình ảnh chưa? Làm thế nào bạn phân chia các đối tượng này một cách hiệu quả?
-
-### 7. **NLP (Natural Language Processing)**
-1. Khi làm việc với văn bản đa ngôn ngữ, bạn đã xử lý vấn đề khác biệt về ngữ pháp và cú pháp giữa các ngôn ngữ như thế nào?
-2. Bạn đã bao giờ phải xử lý các bài toán về nhận diện thực thể có tên (NER) trong một văn bản chưa? Bạn đã sử dụng mô hình nào cho tác vụ này?
-3. Khi làm việc với dữ liệu không gắn nhãn (unsupervised), bạn đã áp dụng kỹ thuật nào trong NLP để trích xuất thông tin hữu ích?
-4. Bạn có thể mô tả cách bạn xử lý các bài toán về tóm tắt văn bản (text summarization) trong một dự án thực tế không?
-5. Bạn đã bao giờ phải xử lý các bài toán về dịch máy (machine translation) chưa? Bạn đã sử dụng mô hình nào và làm sao để cải thiện kết quả dịch?
-6. Khi gặp phải vấn đề với văn bản quá dài vượt quá khả năng của mô hình, bạn đã làm gì để xử lý chúng?
-
-### 8. **LLM (Large Language Models)**
-1. Bạn đã bao giờ phải tùy chỉnh LLM để giải quyết một vấn đề cụ thể của khách hàng chưa? Bạn đã thực hiện quá trình này như thế nào?
-2. Khi LLM sinh ra câu trả lời không liên quan hoặc chứa thông tin sai lệch, bạn đã làm gì để cải thiện tính chính xác của mô hình?
-3. Làm thế nào bạn tối ưu hóa chi phí triển khai mô hình LLM khi phải xử lý lượng lớn dữ liệu văn bản?
-4. Bạn có thể giải thích cách bạn kiểm tra và đảm bảo tính bảo mật của các mô hình LLM trong các ứng dụng thực tế không?
-5. Khi LLM gặp phải vấn đề về bias hoặc thiên vị trong dự đoán, bạn đã sử dụng kỹ thuật gì để giải quyết?
-6. Bạn đã từng phải xử lý bài toán về sinh văn bản dài liên tục mà không bị lặp nội dung hoặc mất ngữ cảnh chưa? Bạn đã giải quyết nó như thế nào?
+Large Language Models (LLMs) là một phần quan trọng trong NLP hiện đại. Chúng khác biệt so với các Language Models (LMs) truyền thống ở nhiều điểm quan trọng. Dưới đây là sự khác biệt và một số câu hỏi phỏng vấn thường gặp trong phần này:
 
 ---
 
-Những câu hỏi này được thiết kế để kiểm tra kiến thức chuyên sâu của bạn trong nhiều khía cạnh liên quan đến các phần ngôn ngữ lập trình, cấu trúc dữ liệu, machine learning, và những công nghệ mới nhất như LLM.
+### **Khác biệt giữa LLM và LM**
+
+1. **Quy mô và Dữ liệu Huấn luyện:**
+   - **LM (Language Models):** Trước đây, LMs chủ yếu được huấn luyện trên một lượng dữ liệu tương đối nhỏ và thường không yêu cầu tài nguyên quá lớn. Ví dụ: các mô hình n-gram hoặc các mô hình đơn giản hơn như LSTM.
+   - **LLM (Large Language Models):** Được huấn luyện trên khối lượng dữ liệu khổng lồ (nhiều terabyte văn bản) từ các nguồn đa dạng. Các mô hình LLM như GPT-3, GPT-4, và BERT chứa hàng tỷ đến hàng trăm tỷ tham số, dẫn đến khả năng mô hình hóa ngữ cảnh và ngôn ngữ tự nhiên tốt hơn nhiều.
+
+2. **Cấu trúc và Kiến trúc Mô hình:**
+   - **LMs Truyền thống:** Thường sử dụng các kiến trúc như LSTM, GRU, hoặc n-grams với các giới hạn về chiều dài ngữ cảnh và khả năng hiểu các mối quan hệ xa.
+   - **LLMs:** Dựa vào kiến trúc **Transformer** với khả năng self-attention, giúp mô hình hiểu các ngữ cảnh dài, mối liên kết xa giữa các từ, và hoạt động tốt trên các chuỗi văn bản dài.
+
+3. **Khả năng Generalization và Ứng dụng:**
+   - **LMs:** Tập trung vào các tác vụ đơn giản hoặc chuyên biệt, ví dụ như phân tích cảm xúc hoặc phân loại văn bản.
+   - **LLMs:** Được thiết kế cho tính ứng dụng rộng rãi và có khả năng generalization cao, giúp thực hiện đa tác vụ mà không cần điều chỉnh nhiều. Chúng có thể xử lý các tác vụ như trả lời câu hỏi, dịch ngôn ngữ, sinh văn bản, và thậm chí là lập trình.
+
+4. **Khả năng Học từ Dữ liệu Mới (Few-shot và Zero-shot Learning):**
+   - **LMs:** Khả năng học từ dữ liệu mới hạn chế, thường yêu cầu fine-tuning với nhiều dữ liệu.
+   - **LLMs:** Có khả năng thực hiện few-shot, zero-shot, hoặc thậm chí là one-shot learning, tức là có thể thực hiện tác vụ mới mà không cần hoặc chỉ cần một lượng dữ liệu rất nhỏ để huấn luyện thêm.
+
+---
+
+### **Câu Hỏi Phỏng Vấn Về LLM**
+
+1. **LLMs khác biệt như thế nào so với các mô hình ngôn ngữ truyền thống?**
+   - **Trả lời:** Nêu các điểm khác biệt chính như quy mô dữ liệu, kiến trúc Transformer, khả năng zero-shot learning, và ứng dụng đa tác vụ của LLM.
+
+2. **Transformer đóng vai trò gì trong sự phát triển của LLM?**
+   - **Trả lời:** Transformer với self-attention giúp mô hình hiểu các mối quan hệ xa và xử lý song song, đây là nền tảng giúp các mô hình như GPT và BERT trở nên hiệu quả hơn với ngữ cảnh dài và phức tạp.
+
+3. **Few-shot, zero-shot, và one-shot learning trong LLM là gì?**
+   - **Trả lời:** Few-shot learning yêu cầu một số ít ví dụ để học, zero-shot không yêu cầu ví dụ nào và dựa trên kiến thức tổng quát của mô hình. One-shot learning là khi chỉ cần một ví dụ để học và áp dụng cho tác vụ mới.
+
+4. **Fine-tuning một LLM hoạt động như thế nào?**
+   - **Trả lời:** Fine-tuning là điều chỉnh lại các tham số của mô hình đã huấn luyện trước cho một tác vụ cụ thể, thường sử dụng một tập dữ liệu nhỏ hơn để cải thiện hiệu suất trên tác vụ đó mà không cần huấn luyện từ đầu.
+
+5. **BERT khác GPT ở điểm nào?**
+   - **Trả lời:** BERT là mô hình bidirectional (hai chiều), giúp hiểu ngữ cảnh trước và sau từ hiện tại, thích hợp cho tác vụ phân loại. GPT là mô hình unidirectional (một chiều) tập trung vào sinh văn bản, giúp tạo ra văn bản một cách tự nhiên và mạch lạc hơn.
+
+6. **Hạn chế và thách thức của LLM là gì?**
+   - **Trả lời:** Một số thách thức gồm yêu cầu tài nguyên cao, khó giải thích, rủi ro thiên lệch (bias) từ dữ liệu huấn luyện, và khó xử lý các vấn đề đạo đức khi ứng dụng thực tế.
+
+7. **Làm thế nào để giảm thiểu thiên lệch (bias) trong LLM?**
+   - **Trả lời:** Các phương pháp bao gồm chọn lọc và cân bằng dữ liệu huấn luyện, kiểm tra và giám sát kết quả, hoặc thậm chí điều chỉnh các trọng số của mô hình để loại bỏ thiên lệch.
+
+### **1. Kỹ thuật Prompt Engineering**
+   - **Prompt Engineering là gì?** Đây là quá trình thiết kế các prompt (lời nhắc) phù hợp để giúp LLM hiểu và trả lời đúng yêu cầu tác vụ mà không cần huấn luyện thêm.
+   - **Các kỹ thuật phổ biến:** Sử dụng zero-shot, few-shot và chained prompts (chuỗi lời nhắc) để đạt hiệu suất tốt nhất trên nhiều tác vụ.
+   - **Câu hỏi phỏng vấn:** *“Bạn sẽ làm thế nào để thiết kế một prompt để LLM phân loại cảm xúc?”* - Bạn có thể giải thích cách hướng dẫn LLM phân tích cảm xúc bằng cách cung cấp một lời nhắc rõ ràng, kèm theo ví dụ.
+
+---
+
+### **2. Cấu trúc Fine-tuning Nâng cao**
+   - **Fine-tuning khác với Pre-training như thế nào?** Pre-training là giai đoạn mô hình học từ dữ liệu khổng lồ, trong khi fine-tuning giúp mô hình tối ưu cho tác vụ cụ thể bằng cách điều chỉnh các tham số.
+   - **Fine-tuning thông qua Adapter Layers và Prompt-based Fine-tuning:** Đây là các kỹ thuật mới giúp tối ưu hoá fine-tuning, cho phép mô hình giữ nguyên các tham số chính trong khi chỉ điều chỉnh một phần nhỏ các layer.
+   - **Câu hỏi phỏng vấn:** *“Bạn sẽ fine-tune GPT-3 như thế nào cho tác vụ dịch ngôn ngữ?”* - Bạn có thể giải thích việc sử dụng một tập dữ liệu song ngữ và tinh chỉnh dựa trên các câu song ngữ để cải thiện độ chính xác.
+
+---
+
+### **3. Tính Toán Phân Tán và Triển khai LLM**
+   - **Phân chia tải giữa các GPU và TPU:** Khi các mô hình có hàng tỷ tham số, việc huấn luyện đòi hỏi tính toán phân tán giữa nhiều GPU hoặc TPU.
+   - **Distillation và Compression:** Đây là kỹ thuật nén mô hình lớn thành mô hình nhỏ hơn nhưng vẫn giữ được phần lớn hiệu suất.
+   - **Câu hỏi phỏng vấn:** *“Làm thế nào để triển khai một mô hình LLM với giới hạn tài nguyên?”* - Bạn có thể trả lời rằng sử dụng kỹ thuật distillation hoặc sử dụng các mô hình nhỏ hơn như DistilBERT để đạt hiệu suất gần tương đương mà tốn ít tài nguyên hơn.
+
+---
+
+### **4. Ethical AI và Các Vấn đề Xã hội của LLM**
+   - **Thiên lệch (Bias):** Một vấn đề lớn của LLM là thiên lệch từ dữ liệu huấn luyện, dẫn đến các kết quả thiếu công bằng hoặc phân biệt đối xử.
+   - **Ảnh hưởng của Deepfakes và Synthetic Media:** LLM có thể được sử dụng để tạo ra nội dung giả mạo, do đó cần cân nhắc các biện pháp kiểm duyệt hoặc xác thực nội dung.
+   - **Câu hỏi phỏng vấn:** *“Làm thế nào để giảm thiểu bias trong LLM?”* - Bạn có thể trả lời rằng sử dụng dữ liệu đa dạng và kiểm soát chất lượng hoặc xây dựng các mô hình kiểm tra để phát hiện bias.
+
+---
+
+### **5. Reinforcement Learning with Human Feedback (RLHF)**
+   - **RLHF là gì?** Đây là kỹ thuật dùng phản hồi của con người để hướng dẫn và cải thiện LLM trong các tác vụ phức tạp.
+   - **Cách thức hoạt động:** Sử dụng các bộ dữ liệu có chứa phản hồi của người dùng để điều chỉnh các phản hồi của mô hình trong các ngữ cảnh cụ thể.
+   - **Câu hỏi phỏng vấn:** *“RLHF hoạt động như thế nào trong các mô hình như ChatGPT?”* - Bạn có thể giải thích rằng phản hồi của người dùng được sử dụng để tinh chỉnh các phản hồi của mô hình, giúp nó trở nên tự nhiên và chính xác hơn.
+
+---
+
+### **6. LLM trong Các Ứng dụng Thực tế và Đa Ngôn ngữ**
+   - **Khả năng hỗ trợ đa ngôn ngữ:** Các LLM hiện đại có khả năng xử lý đa ngôn ngữ, như mBERT hoặc XLM-R, hỗ trợ phân tích và xử lý dữ liệu ngôn ngữ tự nhiên trên quy mô toàn cầu.
+   - **Ứng dụng cụ thể:** LLM có thể được ứng dụng trong chatbot, hỗ trợ khách hàng, phân tích văn bản và tìm kiếm thông minh.
+   - **Câu hỏi phỏng vấn:** *“Bạn sẽ triển khai LLM cho chatbot hỗ trợ đa ngôn ngữ như thế nào?”* - Bạn có thể nói về việc lựa chọn mô hình như mBERT và cách fine-tune với dữ liệu ngôn ngữ phù hợp để đảm bảo hiệu suất đồng đều.

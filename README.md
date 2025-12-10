@@ -1,111 +1,140 @@
-# LỘ TRÌNH CAMPAIGN POE 2 CHI TIẾT (ACT 1 - 2)
-*Cập nhật: Bổ sung các điểm nối map (Halani Gates) và Mini-boss thưởng chỉ số vĩnh viễn.*
+# LỘ TRÌNH SPEEDRUN CAMPAIGN PATH OF EXILE 2 (ACT 1 - 4 + INTERLUDES)
 
----
+*Lưu ý: Chỉ nhiệm vụ chính (Đục Vàng). Optional mini-boss ngon (+points/res/flask). Bỏ phụ rác. Speedrun: Zoom minimap out, run edges clockwise, checkpoint skips (Esc+Respawn sau summon NPC). Mẹo chung: Prior res/life, dodge roll telegraphs, vendor recipe Chaos.*
 
 ## ACT 1: THE CORRUPTION
 
-**1. The Riverbank**
-* **Mục tiêu chính:** Chạy thẳng giết Boss **Bloated Miller**.
-* **Loot quan trọng:** Rương chứa viên Skill Gem đầu tiên nằm giữa đường.
+### 1. The Riverbank
+- Chạy cuối beach.  
+- **Boss:** Bloated Miller (phys/chaos, kill zombie đầu cho weapon). Large Chest mid: Uncut Skill Gem Lv1.  
+- **Mẹo:** Start zombie weapon, beach straight. Vào Clearfell Encampment.
 
-**2. Clearfell**
-* **Mục tiêu chính:** Tìm lối ra **The Grelwood**.
-* **Mini-Boss ngon (NÊN LÀM):** **Beira** (Sói băng).
-    * *Vị trí:* Thường ở trung tâm map.
-    * *Thưởng:* **Head of the Winter Wolf** (+10% Kháng Lạnh vĩnh viễn). Rất quan trọng để đánh Boss Act 1.
+### 2. Clearfell Encampment (Town)
+- Talk Renly (weapon/armor), Una (flask/ring/disenchant), Finn (gamble). Waypoint/Stash/Healing.
 
-**3. The Grelwood (Lần 1)**
-* **Mục tiêu chính:** Tìm lối vào **The Red Vale**. (Nhớ vị trí Tree of Souls nếu gặp).
+### 3. Clearfell
+- Tìm Grelwood (top right).  
+- **Optional:** Beira Rotten Pack (right near Mud Burrow: +10% Cold Res). Abandoned Stash: Uncut Skill Gem Lv1.  
+- **Mẹo:** Center boss, skip Mud Burrow nếu rush (optional Devourer phys/chaos).
 
-**4. The Red Vale**
-* **Mục tiêu chính:** Kích hoạt 3 cột **Obelisks of Rust** -> Giết **Rust King** -> Nhặt *Runed Girdle*.
-* **Về Town:** Trả nhiệm vụ lấy *Runed Spikes*.
+### 4. The Grelwood (1)
+- Tìm Red Vale. Note Tree of Souls (3 seals).  
+- **Optional:** Gerung Brambleghast/Areagne Witch (cauldron Flask no fight).  
+- **Mẹo:** Open forest, Red Vale first.
 
-**5. The Grelwood (Lần 2)**
-* **Mục tiêu chính:** Cắm cọc vào **Tree of Souls** -> Mở đường sang **The Grim Tangle**.
+### 5. The Red Vale
+- Kích 3 Obelisks Rust (any order, spawn waves → Runed Girdle). Cột 3: **Boss Rust King**.  
+- Về Town: Talk Renly → Runed Spikes.  
+- **Mẹo:** Open zone.
 
-**6. The Grim Tangle**
-* **Mục tiêu chính:** Tìm lối sang **Cemetery of the Eternals**.
+### 6. The Grelwood (2)
+- Cắm Spikes Tree Souls → Summon Una → Grim Tangle.  
+- **Mẹo:** Skip Una song: Click → Esc → Respawn Checkpoint.
 
-**7. Cemetery of the Eternals**
-* **Mục tiêu chính:** Tìm 2 hầm mộ con (**Tomb of the Consort** & **Mausoleum of the Praetor**) để lấy 2 mảnh chìa khóa.
-* **Mini-Boss ngon:** Đôi khi có nhiệm vụ phụ của Lachlann thưởng Nhẫn (Ring), nhưng có thể bỏ qua nếu vội.
-* **Boss Map:** Mở cổng Memorial Gate -> Giết **Lachlann**.
+### 7. The Grim Tangle
+- Tìm Cemetery Eternals.  
+- **Optional:** Ervig Rotted Druid (Uncut Supp Gem Lv1).  
+- **Mẹo:** Narrow dark, bám gold quest.
 
-**8. The Hunting Grounds**
-* **Mục tiêu chính:** Chạy sang **Freythorn**.
-* **Mini-Boss ngon (NÊN LÀM):** **The Crowbell** (Quái vật khổng lồ đeo chuông).
-    * *Thưởng:* **2 điểm nội tại cho bộ vũ khí 2 (Weapon Set Passive Points)**. Cực ngon để nuôi vũ khí phụ.
+### 8. Cemetery of the Eternals
+- **Tomb Consort:** Boss Asinia → Key Piece 1. Haunted Treasure: Uncut Supp Lv1.  
+- **Mausoleum Praetor:** Boss Draven → Key Piece 2. Forgotten Riches: Gold/chest.  
+- Memorial Gate: Talk Lachlann → **Boss Lachlann** (betray). Ancient Ruins edge: Ring.  
+- **Mẹo:** Edges, open gates WP sau keys → Checkpoint skip Lachlann dialogue (Esc+Respawn).
 
-**9. Freythorn**
-* **Mục tiêu chính:** Thanh tẩy 3 Bàn thờ nhỏ -> 1 Bàn thờ lớn -> Giết **King in the Mists**.
-* **Thưởng:** **+30 Spirit** (Cực quan trọng để dùng Aura/Minion).
+### 9. The Hunting Grounds
+- Chạy Freythorn first (+30 Spirit Persistent Gem).  
+- **Optional:** Crowbell (2 Weapon Points). Dryadic Ritual edge: Uncut Supp Lv1.  
+- **Mẹo:** Open dangerous, Freythorn before forward.
 
-**10. Ogham Farmlands**
-* **Mục tiêu chính:** Chạy sang **Ogham Village**.
-* **Nhiệm vụ phụ (Có thể bỏ):** Tìm đàn Lute (thưởng Weapon Passive), nhưng mất thời gian tìm.
+### 10. Freythorn
+- Kích 3 Ritual Altars (cleanse waves). Lớn top hill: **Boss King Mists** (multi-phase: purple move, red stand/stagger). Gembloom Skull: +30 Spirit/Uncut Spirit Lv4.  
+- **Mẹo:** Narrow walkways.
 
-**11. Ogham Village**
-* **Mục tiêu chính:** Giết **The Executioner** ở quảng trường lửa -> Vào Oghman Manor.
-* **Loot ngon:** Tìm rương **Blacksmith's Chest** (gần chỗ làm quest phụ Smithing Tools) để lấy *Artificer's Orb*.
+### 11. Ogham Farmlands
+- Chạy Ogham Village. **Optional:** Lost Lute (2 Weapon Points talk Una).
 
-**12. Oghman Manor**
-* **Mục tiêu chính:** Leo lên tầng cao nhất giết trùm cuối Act 1.
-* **Mini-Boss ngon (NÊN LÀM):** **Candlemass** (Quái lửa ở tầng 1 hoặc 2).
-    * *Thưởng:* **+20 Máu tối đa vĩnh viễn (Maximum Life)**. Bắt buộc phải lấy!
-* **BOSS ACT 1:** **Count Geonor**.
+### 12. Ogham Village
+- Quảng trường fire: **Boss Executioner** (phys/fire slams). Free prisoner top. Blacksmith Chest: Art Orb/Blank Rune.  
+- **Mẹo:** Fiery, socket Lesser Elemental Rune.
 
----
+### 13. Manor Ramparts
+- Tìm Oghman Manor. **Optional:** Gallows edge Uncut Supp Lv1.
 
-## ACT 2: THE DESERT (Đã sửa lại luồng đi chuẩn)
+### 14. Oghman Manor
+- Multi-floor: **Optional Candlemass** (+20 Max Life). Top: **Boss Count Geonor** (human/wolf/fog lunges).  
+- **Mẹo:** Fog flasks.
 
-**1. Vastiri Outskirts**
-* **Mục tiêu chính:** Giết **Rathbreaker** -> Vào Town (Ardura Caravan).
+## ACT 2: THE DESERT
 
-**2. Mawdun Quarry -> Mawdun Mine**
-* **Mục tiêu chính:** Xuống tầng sâu nhất (Deep Mine) giết **Zalmarath** -> Lấy **Flame Ruby**.
-* **Về Town:** Đổi Ruby lấy **Tù Và (Horn)** -> Thổi Tù Và trên đỉnh xe Caravan để tan bão cát.
+### 1. Vastiri Outskirts (Combat Town)
+- **Boss Rathbreaker** (phys javelins/cliffs). Talk Hooded One/Asala → Mawdun.  
+- **Mẹo:** Phys mit/life rec.
 
-**3. The Halani Gates (MỚI BỔ SUNG)**
-* *Đây là map mở ra sau khi thổi tù và, nối Town với sa mạc.*
-* **Mục tiêu chính:** Đi xuyên qua cổng thành để vào sa mạc **Deshar**.
-* **Lưu ý:** Map này chủ yếu là đánh nhau với lính gác cổng để thông chốt.
+### 2. Ardura Caravan (Town)
+- NPCs: Hooded (ID/refund), Shambrin (weapon), Zarka (flask/ring), Asala/Risu (quests/gamble post-Rudja).
 
-**4. Deshar**
-* **Mục tiêu chính:** Tìm lối sang **Path of Mourning**.
-* **Mini-Boss ngon (NÊN LÀM):** **The Unremembered** (Bộ xương khổng lồ).
-    * *Thưởng:* **Artificer's Orb** (Đục lỗ đồ).
-* **Nhiệm vụ phụ:** Fallen Dekhara (Thưởng Passive Point) - Có thể làm nếu tiện đường.
+### 3. Mawdun Quarry → Mawdun Mine
+- Quarry: Faridun Cache bridge Art Orb.  
+- Mine deep: **Boss Rudja Dread Engineer** (fire ranged/melee). Flame Ruby. Free Risu.  
+- Về Town Zarka → Horn.  
+- **Mẹo:** Follow rails.
 
-**5. Path of Mourning**
-* **Mục tiêu chính:** Leo lên cao tìm lối sang **Spires of Deshar**.
+### 4. Desert Map → Traitor’s Passage
+- **Optional Boss Balbala Traitor** (Djinn Barya unlock Sekhema Trial, 2 points?). Dark cavern Halani Gates.
 
-**6. Spires of Deshar**
-* **Mục tiêu chính:** Leo lên đỉnh tháp giết **Tor Gul**.
+### 5. Halani Gates
+- **Optional L’Im Impaler** tent (+res?). Levers Asala (3rd chase sand). **Boss Jamanra Risen King**.  
+- **Mẹo:** 3 gates/desert.
 
-**7. Keth, The Lost City**
-* **Mục tiêu chính:** Map này rộng. Cần tìm hang **Sand Viper's Den**.
-* **Boss:** **Kabala** (Nữ hoàng rắn).
+### 6. Branches Optional (Mastodon Badlands/Bone Pits/Keth/Lost City/Buried Shrines/Valley Titans/Titan Grotto)
+- Badlands: Tusks Supp Lv2, Lightless Passage Abyss.  
+- Bone Pits: **Boss Iktab Deathlord/Ekbab**.  
+- Keth: **Optional Kabala Queen** (2 points/relic).  
+- Buried Shrines: **Boss Azarian Forsaken** (fire pots safe). Elemental Shrine res ring (Ruby).  
+- Valley: 3 Seals → Grotto. Relic Altar +1 Charm/buffs.  
+- **Boss Zalmarath Colossus** Grotto (phys arena). Flame Ruby. Titan Sword Lesser Rune.  
+- **Mẹo:** Flexible order, Mastodon/Keth first. Horn Ardura clear storm.
 
-**8. Traitor's Passage (CHI TIẾT MỚI)**
-* *Vị trí:* Lối vào map này thường mở ra ở **Deshar** hoặc **Keth** sau khi bạn đã xử lý xong 2 con boss (Tor Gul và Kabala).
-* **Mục tiêu chính:** Đây là một hẻm núi hẹp và dài. Bạn phải chạy từ đầu đến cuối để đến **Valley of the Titans**.
-* **Lưu ý:** Quái phục kích trên vách núi rất nhiều.
+### 7. Deshar → Path Mourning → Spires Deshar
+- Deshar: Unremembered Art Orb, Fallen Dekhara letter.  
+- Path: Hushed Urn Supp Lv2.  
+- **Boss Tor Gul Defiler** (phys/fire/poison). Sisters Garukhan +10% Lightning Res.
 
-**9. Valley of the Titans**
-* **Mục tiêu chính:** Chạy thẳng đến cầu treo đánh trùm cuối.
-* **Loot ngon (NÊN TÌM):** **Titan's Sword** (Cây kiếm khổng lồ cắm dưới đất).
-    * *Thưởng:* **Lesser Rune** (Ngọc Rune cấp thấp nhưng hữu dụng để ép vào vũ khí).
+### 8. Dreadnought → Vanguard
+- Carts farm.  
+- **Boss Jamanra Abomination** (P1 lightning pylons/gust; P2 sword/shock/tornado; Sekhema wind shield).
 
-**10. BOSS ACT 2:** **Jamanra / The Beast**.
+## ACT 3: THE JUNGLE
 
----
+### 1. Sandswept Marsh (Combat Town)
+- **Optional Rootdredge** Supp Lv9. Orok Campfire Lesser Jew Orb, Hanging Tree ring. Alva.
 
-## TỔNG HỢP CÁC MINI-BOSS THƯỞNG CHỈ SỐ (ĐỪNG BỎ QUA)
+### 2. Ziggurat Encampment (Town)
+- Oswald idols, Servi Local Knowledge.
 
-1.  **Beira (Clearfell - Act 1):** +10% Kháng Lạnh.
-2.  **The Crowbell (Hunting Grounds - Act 1):** +2 Điểm nội tại vũ khí 2.
-3.  **King in the Mists (Freythorn - Act 1):** +30 Spirit (Bắt buộc).
-4.  **Candlemass (Oghman Manor - Act 1):** +20 Máu (Bắt buộc).
-5.  **Boss phụ Act 2 (Tùy chọn):** Các nhiệm vụ phụ ở Act 2 thường cho *Gem* hoặc *Passive Point* cho vũ khí phụ, không bắt buộc bằng các boss Act 1.
+### 3. Jungle Ruins → Venom Crypts
+- Ruins: **Optional Mighty Silverfist** (2 points dodge).  
+- Crypts: Corpse-snake Venom Servi (Art Orb + stun/mana buff). **Boss Xyclucian Chimera**.
+
+### 4. Infested Barrens → Chimeral Wetlands/Azak Bog
+- Summon Alva. Troubled Camp vendor.
+
+### 5. Aggorat Ziggurat → Vaal Jungle
+- **Bosses:** Queen Filth, Ketzuli Priest, Viper Napuatzi, **Doryani Thaumaturge** (lightning/chaos).
+
+## ACT 4: ARCHIPELAGO (Kingsmarch Town - Thuyền)
+
+- Gom Edict Pieces bosses (any order):  
+  - **Isle Kin:** Krutog Lord Kin.  
+  - **Shrike Island:** Omniphobia/Captain Hartlin.  
+  - **Whakapanu:** Yama White.  
+  - **Te Onepu:** Diamora Song Death.  
+  - Random: Scourge Skies, Torvian Saviour, Benedictus Herald.  
+- Ghép → **Boss Tavukai Chieftain**.
+
+## INTERLUDES (Post-Act 4)
+- **Curse Holten:** Refuge → Holten Estate: Kill Isolde/Heldra, Siora, Oswin, Thane Wulfric/Elyswyth (+40 Spirit, uniques).  
+- **Stolen Barya:** Khari → Qimah: Akthi/Anundr, Elzarah, Vornas, Azmadi (+5% HP/stats).  
+- **Doryani Contingency:** Glade → Vault: Lythara, Rakkar, Yeti, Stormgore, Zelina/Zolin (Greater Runes, points).  
+- **Mẹo:** +Spirit/points/res, skip non-main.

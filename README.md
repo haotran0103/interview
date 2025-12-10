@@ -1,162 +1,111 @@
-# LỘ TRÌNH SPEEDRUN CAMPAIGN PATH OF EXILE 2 (ACT 1 - 4)
-*Lưu ý: Chỉ làm Nhiệm vụ chính (Biểu tượng cái Đục Vàng - Golden Chisel trên bản đồ). Bỏ qua mọi nhiệm vụ phụ.*
+# LỘ TRÌNH CAMPAIGN POE 2 CHI TIẾT (ACT 1 - 2)
+*Cập nhật: Bổ sung các điểm nối map (Halani Gates) và Mini-boss thưởng chỉ số vĩnh viễn.*
 
 ---
 
 ## ACT 1: THE CORRUPTION
 
 **1. The Riverbank**
-* **Mục tiêu:** Chạy thẳng đến cuối map.
-* **Boss:** Bloated Miller (Con xác sống béo cầm chùy).
-* **Hành động:** Giết boss -> Vào Town (The Clearfell Encampment).
+* **Mục tiêu chính:** Chạy thẳng giết Boss **Bloated Miller**.
+* **Loot quan trọng:** Rương chứa viên Skill Gem đầu tiên nằm giữa đường.
 
-**2. The Clearfell Encampment (Town)**
-* **Hành động:** Nói chuyện với Renly và Una để mở map tiếp theo.
+**2. Clearfell**
+* **Mục tiêu chính:** Tìm lối ra **The Grelwood**.
+* **Mini-Boss ngon (NÊN LÀM):** **Beira** (Sói băng).
+    * *Vị trí:* Thường ở trung tâm map.
+    * *Thưởng:* **Head of the Winter Wolf** (+10% Kháng Lạnh vĩnh viễn). Rất quan trọng để đánh Boss Act 1.
 
-**3. Clearfell**
-* **Mục tiêu:** Tìm lối ra **The Grelwood**.
-* **Lưu ý quan trọng:** Bỏ qua hang *The Mud Burrow* (Boss con sâu không bắt buộc).
-* **Dấu hiệu:** Lối ra thường nằm ở góc trên hoặc góc phải bản đồ.
+**3. The Grelwood (Lần 1)**
+* **Mục tiêu chính:** Tìm lối vào **The Red Vale**. (Nhớ vị trí Tree of Souls nếu gặp).
 
-**4. The Grelwood (Lần 1)**
-* **Mục tiêu:** Tìm lối vào **The Red Vale**.
-* **Dấu hiệu:** Nếu gặp *Tree of Souls* (cái cây to có 3 lỗ khảm) thì nhớ vị trí, chưa làm gì được. Tiếp tục đi tìm *The Red Vale*.
+**4. The Red Vale**
+* **Mục tiêu chính:** Kích hoạt 3 cột **Obelisks of Rust** -> Giết **Rust King** -> Nhặt *Runed Girdle*.
+* **Về Town:** Trả nhiệm vụ lấy *Runed Spikes*.
 
-**5. The Red Vale**
-* **Mục tiêu:** Tìm 3 cái cột rỉ sét (**Obelisks of Rust**).
-* **Hành động:**
-    1. Kích hoạt cột -> Quái hiện ra -> Giết hết -> Nhặt *Runed Girdle*.
-    2. Làm đủ 3 cột. Tại cột thứ 3, Boss **Rust King** sẽ xuất hiện.
-    3. Giết Rust King -> Nhặt mảnh cuối cùng.
-    4. **VỀ TOWN NGAY:** Nói chuyện với thợ rèn Renly -> Lấy item **Runed Spikes**.
+**5. The Grelwood (Lần 2)**
+* **Mục tiêu chính:** Cắm cọc vào **Tree of Souls** -> Mở đường sang **The Grim Tangle**.
 
-**6. The Grelwood (Lần 2)**
-* **Mục tiêu:** Quay lại chỗ cái cây **Tree of Souls**.
-* **Hành động:** Cắm *Runed Spikes* vào cây -> Nói chuyện với Una -> Lối đi mới mở ra -> Vào **The Grim Tangle**.
+**6. The Grim Tangle**
+* **Mục tiêu chính:** Tìm lối sang **Cemetery of the Eternals**.
 
-**7. The Grim Tangle**
-* **Mục tiêu:** Chạy xuyên map tìm lối sang **Cemetery of the Eternals**.
-* **Dấu hiệu:** Map khá tối và hẹp, cứ bám theo hướng có nhiệm vụ vàng.
+**7. Cemetery of the Eternals**
+* **Mục tiêu chính:** Tìm 2 hầm mộ con (**Tomb of the Consort** & **Mausoleum of the Praetor**) để lấy 2 mảnh chìa khóa.
+* **Mini-Boss ngon:** Đôi khi có nhiệm vụ phụ của Lachlann thưởng Nhẫn (Ring), nhưng có thể bỏ qua nếu vội.
+* **Boss Map:** Mở cổng Memorial Gate -> Giết **Lachlann**.
 
-**8. Cemetery of the Eternals**
-* **Cơ chế:** Map này là một ngã ba lớn. Bạn cần tìm 2 hầm mộ con để lấy 2 mảnh chìa khóa.
-    * **Hầm 1: Tomb of the Consort:** Vào trong -> Chạy tìm Boss **Asinia** -> Giết -> Nhặt *Key Piece*.
-    * **Hầm 2: Mausoleum of the Praetor:** Vào trong -> Chạy tìm Boss **Draven** -> Giết -> Nhặt *Key Piece*.
-* **Sau khi có 2 mảnh:** Quay lại Cemetery -> Tìm cánh cổng sắt lớn (**The Memorial Gate**) có NPC Lachlann đứng đợi -> Mở cổng.
-* **Boss:** Đi theo Lachlann -> Hắn biến hình -> Giết **Lachlann**.
+**8. The Hunting Grounds**
+* **Mục tiêu chính:** Chạy sang **Freythorn**.
+* **Mini-Boss ngon (NÊN LÀM):** **The Crowbell** (Quái vật khổng lồ đeo chuông).
+    * *Thưởng:* **2 điểm nội tại cho bộ vũ khí 2 (Weapon Set Passive Points)**. Cực ngon để nuôi vũ khí phụ.
 
-**9. The Hunting Grounds**
-* **Mục tiêu:** Chạy sống sót sang map **Freythorn**.
-* **Lưu ý:** Quái ở đây rất mạnh, đừng đứng lại đánh, chạy thẳng.
+**9. Freythorn**
+* **Mục tiêu chính:** Thanh tẩy 3 Bàn thờ nhỏ -> 1 Bàn thờ lớn -> Giết **King in the Mists**.
+* **Thưởng:** **+30 Spirit** (Cực quan trọng để dùng Aura/Minion).
 
-**10. Freythorn**
-* **Mục tiêu:** Tìm 3 Bàn thờ nhỏ (**Ritual Altars**) rải rác trong map.
-* **Hành động:** Kích hoạt bàn thờ -> Vòng tròn hiện ra -> Giết quái trong vòng tròn để thanh tẩy.
-* **Boss:** Sau khi xong 3 cái nhỏ -> Tìm Bàn thờ lớn trên đỉnh đồi -> Kích hoạt -> Giết **King in the Mists**.
-* **Hành động:** Nhặt đầu lâu (Quest item) -> Về Town trả nhiệm vụ.
+**10. Ogham Farmlands**
+* **Mục tiêu chính:** Chạy sang **Ogham Village**.
+* **Nhiệm vụ phụ (Có thể bỏ):** Tìm đàn Lute (thưởng Weapon Passive), nhưng mất thời gian tìm.
 
-**11. Ogham Farmlands**
-* **Mục tiêu:** Chạy thẳng sang **Ogham Village**.
+**11. Ogham Village**
+* **Mục tiêu chính:** Giết **The Executioner** ở quảng trường lửa -> Vào Oghman Manor.
+* **Loot ngon:** Tìm rương **Blacksmith's Chest** (gần chỗ làm quest phụ Smithing Tools) để lấy *Artificer's Orb*.
 
-**12. Ogham Village**
-* **Mục tiêu:** Đi đến quảng trường lửa cháy lớn ở giữa map.
-* **Boss:** **The Executioner** (Đao phủ trùm đầu).
-* **Hành động:** Giết xong -> Cửa dinh thự mở ra -> Vào **Oghman Manor**.
-
-**13. Oghman Manor**
-* **Mục tiêu:** Leo cầu thang lên tầng cao nhất.
-* **BOSS CUỐI ACT 1:** **Count Geonor**.
-    * *Phase 1:* Dạng người.
-    * *Phase 2:* Hóa sói, có sương mù (chạy tìm quái nhỏ giết hồi bình máu).
+**12. Oghman Manor**
+* **Mục tiêu chính:** Leo lên tầng cao nhất giết trùm cuối Act 1.
+* **Mini-Boss ngon (NÊN LÀM):** **Candlemass** (Quái lửa ở tầng 1 hoặc 2).
+    * *Thưởng:* **+20 Máu tối đa vĩnh viễn (Maximum Life)**. Bắt buộc phải lấy!
+* **BOSS ACT 1:** **Count Geonor**.
 
 ---
 
-## ACT 2: THE DESERT
+## ACT 2: THE DESERT (Đã sửa lại luồng đi chuẩn)
 
 **1. Vastiri Outskirts**
-* **Mục tiêu:** Đi vào khu vực có đánh nhau.
-* **Boss:** **Rathbreaker** (Tướng cướp cầm chùy to).
-* **Hành động:** Giết xong -> Đi tiếp vào Town (Ardura Caravan).
+* **Mục tiêu chính:** Giết **Rathbreaker** -> Vào Town (Ardura Caravan).
 
-**2. Ardura Caravan (Town)**
-* **Hành động:** Nói chuyện với Hooded One & Sekhema Asala -> Mở map **Mawdun Quarry**.
+**2. Mawdun Quarry -> Mawdun Mine**
+* **Mục tiêu chính:** Xuống tầng sâu nhất (Deep Mine) giết **Zalmarath** -> Lấy **Flame Ruby**.
+* **Về Town:** Đổi Ruby lấy **Tù Và (Horn)** -> Thổi Tù Và trên đỉnh xe Caravan để tan bão cát.
 
-**3. Mawdun Quarry**
-* **Mục tiêu:** Tìm lối xuống hầm mỏ **Mawdun Mine**.
-* **Dấu hiệu:** Đi theo đường ray xe goòng.
+**3. The Halani Gates (MỚI BỔ SUNG)**
+* *Đây là map mở ra sau khi thổi tù và, nối Town với sa mạc.*
+* **Mục tiêu chính:** Đi xuyên qua cổng thành để vào sa mạc **Deshar**.
+* **Lưu ý:** Map này chủ yếu là đánh nhau với lính gác cổng để thông chốt.
 
-**4. Mawdun Mine**
-* **Mục tiêu:** Đi xuống tầng sâu nhất (The Deep Mine).
-* **Boss:** **Zalmarath** (Pháp sư lửa).
-* **Hành động:** Giết Zalmarath -> Nhặt **Flame Ruby**.
-* **VỀ TOWN:** Đưa Ruby cho Zarka -> Nhận **Tù và (Horn)** -> Leo lên đỉnh xe Caravan trong Town -> Bấm vào cái Tù và để thổi bay bão cát.
+**4. Deshar**
+* **Mục tiêu chính:** Tìm lối sang **Path of Mourning**.
+* **Mini-Boss ngon (NÊN LÀM):** **The Unremembered** (Bộ xương khổng lồ).
+    * *Thưởng:* **Artificer's Orb** (Đục lỗ đồ).
+* **Nhiệm vụ phụ:** Fallen Dekhara (Thưởng Passive Point) - Có thể làm nếu tiện đường.
 
-**5. Deshar**
-* **Mục tiêu:** Đi vào từ bản đồ thế giới. Tìm lối sang **Path of Mourning**.
-* **Dấu hiệu:** Map thành phố cổ, nhiều xác ướp.
+**5. Path of Mourning**
+* **Mục tiêu chính:** Leo lên cao tìm lối sang **Spires of Deshar**.
 
-**6. Path of Mourning**
-* **Mục tiêu:** Map này đi theo chiều dọc (leo lên cao). Tìm lối sang **Spires of Deshar**.
+**6. Spires of Deshar**
+* **Mục tiêu chính:** Leo lên đỉnh tháp giết **Tor Gul**.
 
-**7. Spires of Deshar**
-* **Mục tiêu:** Leo lên đỉnh tháp cao nhất.
-* **Boss:** **Tor Gul** (Bộ xương khổng lồ).
-
-**8. Keth, The Lost City**
-* **Mục tiêu:** Map rất rộng, cần tìm lối xuống hang **Sand Viper's Den** (hoặc tên tương tự chứa Boss rắn).
+**7. Keth, The Lost City**
+* **Mục tiêu chính:** Map này rộng. Cần tìm hang **Sand Viper's Den**.
 * **Boss:** **Kabala** (Nữ hoàng rắn).
-* **Lưu ý:** Sau khi giết Kabala và Tor Gul, đường đi tiếp sẽ mở ra ở map *Traitor's Passage*.
 
-**9. Traitor's Passage -> Valley of the Titans**
-* **Mục tiêu:** Chạy thẳng một mạch. Map *Valley of the Titans* là đường thẳng tắp.
-* **BOSS CUỐI ACT 2:** **Jamanra / The Beast** (Con quái vật khổng lồ chặn cầu).
+**8. Traitor's Passage (CHI TIẾT MỚI)**
+* *Vị trí:* Lối vào map này thường mở ra ở **Deshar** hoặc **Keth** sau khi bạn đã xử lý xong 2 con boss (Tor Gul và Kabala).
+* **Mục tiêu chính:** Đây là một hẻm núi hẹp và dài. Bạn phải chạy từ đầu đến cuối để đến **Valley of the Titans**.
+* **Lưu ý:** Quái phục kích trên vách núi rất nhiều.
 
----
+**9. Valley of the Titans**
+* **Mục tiêu chính:** Chạy thẳng đến cầu treo đánh trùm cuối.
+* **Loot ngon (NÊN TÌM):** **Titan's Sword** (Cây kiếm khổng lồ cắm dưới đất).
+    * *Thưởng:* **Lesser Rune** (Ngọc Rune cấp thấp nhưng hữu dụng để ép vào vũ khí).
 
-## ACT 3: THE JUNGLE
-
-**1. Sandswept Marsh**
-* **Mục tiêu:** Tìm lối vào **Jungle Ruins**.
-* **Dấu hiệu:** Đi qua khu đầm lầy, tìm kiến trúc đá cổ.
-
-**2. Jungle Ruins**
-* **Mục tiêu:** Tìm lối xuống **The Venom Crypts**.
-
-**3. The Venom Crypts**
-* **Nhiệm vụ:** Tìm **Den of the Serpent Priestess**.
-* **Hành động:** Không nhất thiết phải đánh nhau nhiều, tìm cái xác chết có ánh sáng xanh lá -> Tương tác để lấy **Venom** (Nọc độc).
-
-**4. Chimeral Wetlands**
-* **Mục tiêu:** Map này cực kỳ rối. Hãy bám sát biểu tượng Nhiệm vụ Vàng trên minimap.
-* **Đích đến:** Tìm lối vào **Aggorat** (Thành phố vàng).
-
-**5. Aggorat**
-* **Mục tiêu:** Tìm khu vực tháp cao **Ziggurat**.
-* **Boss:** Đánh bại Boss giữ cửa (thường là một con Construct hoặc Tướng Vaal).
-
-**6. Vaal Jungle**
-* **Mục tiêu:** Đi xuyên rừng để đến khu vực hiến tế cuối cùng.
-
-**7. BOSS CUỐI ACT 3:** **Doryani**.
-* **Lưu ý:** Hắn bắn phép rất đau, cần kháng Chaos/Lightning cao.
+**10. BOSS ACT 2:** **Jamanra / The Beast**.
 
 ---
 
-## ACT 4: THE ARCHIPELAGO (Đi thuyền)
+## TỔNG HỢP CÁC MINI-BOSS THƯỞNG CHỈ SỐ (ĐỪNG BỎ QUA)
 
-*Cơ chế: Tại Town Kingsmarch, bạn dùng thuyền để chọn đảo đi. Có thể đi theo thứ tự bất kỳ, nhưng mục tiêu chung là gom đủ mảnh vũ khí.*
-
-**Quy trình chung cho mọi đảo:**
-1.  Cập bến.
-2.  Chạy tìm khu vực Boss (thường nằm ở điểm xa nhất của đảo hoặc trong hang động sâu nhất).
-3.  Giết Boss -> Nhặt **Edict Piece**.
-4.  Về thuyền -> Chọn đảo khác.
-
-**Danh sách đảo & Boss cần chú ý:**
-1.  **Isle of Kin / Kedge Bay:** Quái vật biển. Boss là con cua hoặc quái vật nước.
-2.  **Whakapanu:** Rừng rậm Karui. Boss là chiến binh bộ lạc hoặc thú dữ.
-3.  **Te Onepu:** Sa mạc ven biển. Boss liên quan đến bão cát/xương.
-4.  **Shrike Island:** Đảo toàn chim biến dị. Boss là chim khổng lồ.
-
-**Kết thúc Act 4:**
-* Sau khi gom đủ mảnh -> Ghép vũ khí -> Boss Cuối Act 4 (Thường là một vị thần Karui hoặc sứ giả).
+1.  **Beira (Clearfell - Act 1):** +10% Kháng Lạnh.
+2.  **The Crowbell (Hunting Grounds - Act 1):** +2 Điểm nội tại vũ khí 2.
+3.  **King in the Mists (Freythorn - Act 1):** +30 Spirit (Bắt buộc).
+4.  **Candlemass (Oghman Manor - Act 1):** +20 Máu (Bắt buộc).
+5.  **Boss phụ Act 2 (Tùy chọn):** Các nhiệm vụ phụ ở Act 2 thường cho *Gem* hoặc *Passive Point* cho vũ khí phụ, không bắt buộc bằng các boss Act 1.

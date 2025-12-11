@@ -1,140 +1,170 @@
-# LỘ TRÌNH SPEEDRUN CAMPAIGN PATH OF EXILE 2 (ACT 1 - 4 + INTERLUDES)
+# LỘ TRÌNH SPEEDRUN CAMPAIGN PATH OF EXILE 2 (ACT 1-4 + INTERLUDES) 0.4.0
+*Lưu ý: Chỉ nhiệm vụ chính (Đục Vàng). Optional mini-boss ngon (+points/res/flask). Bỏ phụ rác. Speedrun: Zoom minimap out, run edges clockwise, checkpoint skips (Esc+Respawn sau summon NPC). Mẹo chung: Prior res/life, dodge roll telegraphs, vendor recipe Chaos. Tổng ~28-37h newbie, ~10-15h speedrun. 0.4.0: Không thay đổi campaign lớn, league reset maps lvl 60-65.*
 
-*Lưu ý: Chỉ nhiệm vụ chính (Đục Vàng). Optional mini-boss ngon (+points/res/flask). Bỏ phụ rác. Speedrun: Zoom minimap out, run edges clockwise, checkpoint skips (Esc+Respawn sau summon NPC). Mẹo chung: Prior res/life, dodge roll telegraphs, vendor recipe Chaos.*
-
-## ACT 1: THE CORRUPTION
-
+## ACT 1: THE CORRUPTION (Lvl 1-10, ~2-3h)
 ### 1. The Riverbank
-- Chạy cuối beach.  
-- **Boss:** Bloated Miller (phys/chaos, kill zombie đầu cho weapon). Large Chest mid: Uncut Skill Gem Lv1.  
-- **Mẹo:** Start zombie weapon, beach straight. Vào Clearfell Encampment.
+- Chạy cuối beach. **Boss: Bloated Miller** (phys/chaos, kill zombie đầu weapon). Large Chest: Uncut Skill Gem Lv1.
+- **Mẹo:** Beach straight, socket gem (G).
 
 ### 2. Clearfell Encampment (Town)
-- Talk Renly (weapon/armor), Una (flask/ring/disenchant), Finn (gamble). Waypoint/Stash/Healing.
+- Talk Renly (gear), Una (flask/ring), Finn (gamble). WP/Stash.
 
 ### 3. Clearfell
-- Tìm Grelwood (top right).  
-- **Optional:** Beira Rotten Pack (right near Mud Burrow: +10% Cold Res). Abandoned Stash: Uncut Skill Gem Lv1.  
-- **Mẹo:** Center boss, skip Mud Burrow nếu rush (optional Devourer phys/chaos).
+- Tìm Grelwood (top right). **Optional: Beira Rotten Pack** (right Mud Burrow: +10% Cold Res). Abandoned Stash: Uncut Skill Gem Lv1.
+- **Mẹo:** Center boss, skip Mud nếu rush (**Devourer** phys/chaos opt).
 
 ### 4. The Grelwood (1)
-- Tìm Red Vale. Note Tree of Souls (3 seals).  
-- **Optional:** Gerung Brambleghast/Areagne Witch (cauldron Flask no fight).  
-- **Mẹo:** Open forest, Red Vale first.
+- Tìm Red Vale. Tree of Souls (3 seals). **Opt: Gerung Brambleghast/Areagne Witch** (cauldron Flask).
+- **Mẹo:** Red Vale first, 3 Obelisks → **Rust King**.
 
 ### 5. The Red Vale
-- Kích 3 Obelisks Rust (any order, spawn waves → Runed Girdle). Cột 3: **Boss Rust King**.  
-- Về Town: Talk Renly → Runed Spikes.  
+- 3 Obelisks Rust → **Boss Rust King**. Về town Renly → Runed Spikes.
 - **Mẹo:** Open zone.
 
 ### 6. The Grelwood (2)
-- Cắm Spikes Tree Souls → Summon Una → Grim Tangle.  
-- **Mẹo:** Skip Una song: Click → Esc → Respawn Checkpoint.
+- Cắm Spikes Tree Souls → Summon Una → Grim Tangle.
+- **Mẹo:** Skip Una song: Click → Esc → Respawn.
 
 ### 7. The Grim Tangle
-- Tìm Cemetery Eternals.  
-- **Optional:** Ervig Rotted Druid (Uncut Supp Gem Lv1).  
-- **Mẹo:** Narrow dark, bám gold quest.
+- Tìm Cemetery. **Opt: Ervig Rotted Druid** (Uncut Supp Lv1).
+- **Mẹo:** Bám gold.
 
 ### 8. Cemetery of the Eternals
-- **Tomb Consort:** Boss Asinia → Key Piece 1. Haunted Treasure: Uncut Supp Lv1.  
-- **Mausoleum Praetor:** Boss Draven → Key Piece 2. Forgotten Riches: Gold/chest.  
-- Memorial Gate: Talk Lachlann → **Boss Lachlann** (betray). Ancient Ruins edge: Ring.  
-- **Mẹo:** Edges, open gates WP sau keys → Checkpoint skip Lachlann dialogue (Esc+Respawn).
+- **Tomb Consort: Asinia** → Key 1. **Mausoleum Praetor: Draven** → Key 2. Memorial Gate: Talk Lachlann → **Boss Lachlann** (betray). Ancient Ruins: Ring.
+- **Mẹo:** Edges, WP sau keys, skip dialogue Esc+Respawn.
 
 ### 9. The Hunting Grounds
-- Chạy Freythorn first (+30 Spirit Persistent Gem).  
-- **Optional:** Crowbell (2 Weapon Points). Dryadic Ritual edge: Uncut Supp Lv1.  
-- **Mẹo:** Open dangerous, Freythorn before forward.
+- Freythorn first (+30 Spirit Gem). **Opt: Crowbell** (2 Weapon Points). Dryadic Ritual: Uncut Supp Lv1.
+- **Mẹo:** Freythorn before forward.
 
 ### 10. Freythorn
-- Kích 3 Ritual Altars (cleanse waves). Lớn top hill: **Boss King Mists** (multi-phase: purple move, red stand/stagger). Gembloom Skull: +30 Spirit/Uncut Spirit Lv4.  
-- **Mẹo:** Narrow walkways.
+- 3 Altars → **Boss King Mists** (purple move/red stagger). Gembloom Skull: +30 Spirit/Uncut Lv4.
+- **Mẹo:** Narrow paths.
 
 ### 11. Ogham Farmlands
-- Chạy Ogham Village. **Optional:** Lost Lute (2 Weapon Points talk Una).
+- Ogham Village. **Opt: Lost Lute** (2 Points Una).
 
 ### 12. Ogham Village
-- Quảng trường fire: **Boss Executioner** (phys/fire slams). Free prisoner top. Blacksmith Chest: Art Orb/Blank Rune.  
-- **Mẹo:** Fiery, socket Lesser Elemental Rune.
+- Quảng trường: **Boss Executioner** (phys/fire). Free prisoner. Blacksmith Chest: Art Orb/Blank Rune.
+- **Mẹo:** Socket Lesser Ele Rune.
 
 ### 13. Manor Ramparts
-- Tìm Oghman Manor. **Optional:** Gallows edge Uncut Supp Lv1.
+- Oghman Manor. **Opt: Gallows** Uncut Supp Lv1.
 
 ### 14. Oghman Manor
-- Multi-floor: **Optional Candlemass** (+20 Max Life). Top: **Boss Count Geonor** (human/wolf/fog lunges).  
+- Multi-floor: **Opt Candlemass** (+20 Life). Top: **Boss Count Geonor** (human/wolf/fog).
 - **Mẹo:** Fog flasks.
 
-## ACT 2: THE DESERT
-
+## ACT 2: THE DESERT (Lvl 10-20, ~3-4h)
 ### 1. Vastiri Outskirts (Combat Town)
-- **Boss Rathbreaker** (phys javelins/cliffs). Talk Hooded One/Asala → Mawdun.  
-- **Mẹo:** Phys mit/life rec.
+- **Boss Rathbreaker** (phys javelins). Talk Hooded/Asala → Mawdun.
+- **Mẹo:** Phys mit.
 
 ### 2. Ardura Caravan (Town)
-- NPCs: Hooded (ID/refund), Shambrin (weapon), Zarka (flask/ring), Asala/Risu (quests/gamble post-Rudja).
+- Hooded (ID), Shambrin (weapon), Zarka (flask), Asala/Risu.
 
-### 3. Mawdun Quarry → Mawdun Mine
-- Quarry: Faridun Cache bridge Art Orb.  
-- Mine deep: **Boss Rudja Dread Engineer** (fire ranged/melee). Flame Ruby. Free Risu.  
-- Về Town Zarka → Horn.  
+### 3. Mawdun Quarry/Mine
+- Quarry: Faridun Cache Art Orb. Mine: **Boss Rudja** (fire). Free Risu → Zarka Horn.
 - **Mẹo:** Follow rails.
 
 ### 4. Desert Map → Traitor’s Passage
-- **Optional Boss Balbala Traitor** (Djinn Barya unlock Sekhema Trial, 2 points?). Dark cavern Halani Gates.
+- **Opt Boss Balbala** (Djinn Barya Sekhema Trial 2p). Halani Gates.
 
 ### 5. Halani Gates
-- **Optional L’Im Impaler** tent (+res?). Levers Asala (3rd chase sand). **Boss Jamanra Risen King**.  
-- **Mẹo:** 3 gates/desert.
+- **Opt L’Im Impaler** (+res). Levers Asala. **Boss Jamanra Risen King**.
+- **Mẹo:** 3 gates.
 
-### 6. Branches Optional (Mastodon Badlands/Bone Pits/Keth/Lost City/Buried Shrines/Valley Titans/Titan Grotto)
-- Badlands: Tusks Supp Lv2, Lightless Passage Abyss.  
-- Bone Pits: **Boss Iktab Deathlord/Ekbab**.  
-- Keth: **Optional Kabala Queen** (2 points/relic).  
-- Buried Shrines: **Boss Azarian Forsaken** (fire pots safe). Elemental Shrine res ring (Ruby).  
-- Valley: 3 Seals → Grotto. Relic Altar +1 Charm/buffs.  
-- **Boss Zalmarath Colossus** Grotto (phys arena). Flame Ruby. Titan Sword Lesser Rune.  
-- **Mẹo:** Flexible order, Mastodon/Keth first. Horn Ardura clear storm.
+### 6. Branches (Badlands/Bone Pits/Keth/Lost City/Buried Shrines/Valley Titans/Grotto)
+- Badlands: Tusks Supp Lv2.
+- Bone Pits: **Boss Iktab/Ekbab**.
+- Keth: **Opt Kabala Queen** (2p/relic).
+- Buried: **Boss Azarian** (Ruby res). Pots safe.
+- Valley: 3 Seals → Grotto. Relic +1 Charm.
+- **Boss Zalmarath** (Flame Ruby/Titan Sword Rune).
+- **Mẹo:** Mastodon/Keth first.
 
-### 7. Deshar → Path Mourning → Spires Deshar
-- Deshar: Unremembered Art Orb, Fallen Dekhara letter.  
-- Path: Hushed Urn Supp Lv2.  
-- **Boss Tor Gul Defiler** (phys/fire/poison). Sisters Garukhan +10% Lightning Res.
+### 7. Deshar → Path Mourning → Spires
+- Deshar: Unremembered Art Orb.
+- Path: Hushed Urn Supp Lv2.
+- **Boss Tor Gul** (Sisters Garukhan +10% Light Res).
 
 ### 8. Dreadnought → Vanguard
-- Carts farm.  
-- **Boss Jamanra Abomination** (P1 lightning pylons/gust; P2 sword/shock/tornado; Sekhema wind shield).
+- **Boss Jamanra Abomination** (P1 pylons/gust; P2 sword/shock).
 
-## ACT 3: THE JUNGLE
-
+## ACT 3: THE JUNGLE (Lvl 20-30, ~4-5h)
 ### 1. Sandswept Marsh (Combat Town)
-- **Optional Rootdredge** Supp Lv9. Orok Campfire Lesser Jew Orb, Hanging Tree ring. Alva.
+- **Opt Rootdredge** Uncut Lv9. Orok: Jew Orb. Hanging Tree: Ring. Alva.
 
 ### 2. Ziggurat Encampment (Town)
-- Oswald idols, Servi Local Knowledge.
+- Oswald/Servi. Talk Alva/Oswald/Hooded → lower water → Jungle Ruins.
 
 ### 3. Jungle Ruins → Venom Crypts
-- Ruins: **Optional Mighty Silverfist** (2 points dodge).  
-- Crypts: Corpse-snake Venom Servi (Art Orb + stun/mana buff). **Boss Xyclucian Chimera**.
+- **Opt Mighty Silverfist** (2p dodge). Crypts: Venom Servi (Art Orb +stun/mana buff).
+- **Boss Xyclucian Chimera** (tri-ele/chaos).
 
 ### 4. Infested Barrens → Chimeral Wetlands/Azak Bog
-- Summon Alva. Troubled Camp vendor.
+- Summon Alva. Troubled vendor. Bog: **Boss Ignagduk** (Gemrot +30 Spirit Lv10). Ghastly Spear Charm.
+- **Mẹo:** Flameskin res. P1 broom, P2 fireballs.
 
-### 5. Aggorat Ziggurat → Vaal Jungle
-- **Bosses:** Queen Filth, Ketzuli Priest, Viper Napuatzi, **Doryani Thaumaturge** (lightning/chaos).
+### 5. Jiquani’s Machinarium → Sanctum
+- 4 Soul Cores. **Opt Blackjaw** (+10% Fire Res).
+- **Boss Zicoatl** (phys/lightning). Large Core → Matlan.
 
-## ACT 4: ARCHIPELAGO (Kingsmarch Town - Thuyền)
+### 6. Matlan Waterways → Drowned City
+- Levers drain. Avoid teal orb. Secret Cellars.
 
-- Gom Edict Pieces bosses (any order):  
-  - **Isle Kin:** Krutog Lord Kin.  
-  - **Shrike Island:** Omniphobia/Captain Hartlin.  
-  - **Whakapanu:** Yama White.  
-  - **Te Onepu:** Diamora Song Death.  
-  - Random: Scourge Skies, Torvian Saviour, Benedictus Herald.  
-- Ghép → **Boss Tavukai Chieftain**.
+### 7. Molten Vault (side)
+- Lever gold → **Boss Mektul** (<4min: Uncut Lv10 +Reforging/Art Orb).
 
-## INTERLUDES (Post-Act 4)
-- **Curse Holten:** Refuge → Holten Estate: Kill Isolde/Heldra, Siora, Oswin, Thane Wulfric/Elyswyth (+40 Spirit, uniques).  
-- **Stolen Barya:** Khari → Qimah: Akthi/Anundr, Elzarah, Vornas, Azmadi (+5% HP/stats).  
-- **Doryani Contingency:** Glade → Vault: Lythara, Rakkar, Yeti, Stormgore, Zelina/Zolin (Greater Runes, points).  
-- **Mẹo:** +Spirit/points/res, skip non-main.
+### 8. Apex of Filth → Temple Kopec → Utzaal (Past)
+- **Boss Queen Filth**. **Boss Ketzuli** (shade/sunburn).
+- **Boss Viper Napuatzi** (poison/shrink). Sacrificial Heart points → Aggorat.
+
+### 9. Aggorat/Black Chambers (Past)
+- Heart altar 2p. **Boss Doryani Thaumaturge** → Kingsmarch.
+
+## ACT 4: ARCHIPELAGO (Kingsmarch, Lvl 30-40, ~3-4h non-linear)
+**Order gợi ý:** Isle Kin > Volcanic > Kedge/Journey > Prison/Confinement > Eye/Halls > Whakapanu/Singing > Shrike > Arastas/Excavation/Ngakanu/Heart. Ghép 3 Edict Pieces → **Tavukai**.
+- **0.4.0:** Blind Beast Blank Greater Rune → Dannig; Dark Mists Tome (2p +gem/gold).
+
+### Kingsmarch (Town)
+- Talk Doryani/Alva/Rog/Tujen/Ange/Kanu/Makoru → boat. Opt Arastas/Ngakanu shops.
+
+### Isle of Kin → Volcanic Warrens
+- **Opt Blind Beast** (2p). Beast Pen Uncut Supp Lv4. **Boss Krutog** (phys/light). Free Matiki.
+- **Mẹo:** Buffs speed.
+
+### Kedge Bay → Journey's End
+- Abandoned Ship Jew Orb. **Boss Captain Hartlin** (phys/cold) → **Omniphobia**. Verisium → Dannig spikes. Free Freya/Tujen gem Lv13.
+
+### Abandoned Prison → Solitary Confinement
+- Chapel flask buff. **Boss Prisoner** (ballista heal interrupts).
+
+### Eye of Hinekora → Halls of the Dead
+- Tests buffs. **Boss Yama White** (2p).
+
+### Whakapanu → Singing Caverns
+- **Opt Great White One** (Shark Fin gems Lv11/4). **Boss Diamora** (thaw charm; petrify).
+
+### Shrike Island
+- **Boss Scourge Skies**. 4 Torn Maps → Expedition.
+
+### Arastas → Excavation → Ngakanu → Heart of the Tribe
+- **Torvian Saviour**, **Benedictus Herald**. **Boss Tavukai**.
+
+## INTERLUDES (Post-Act4, Lvl 60-65 maps, ngẫu nhiên order)
+### 1. Curse of Holten (Ogham)
+Refuge → Scorched Farmlands → Stones Serle → Blackwood → Holten → Wolvenhold → Holten Estate.
+- **Isolde/Heldra**, **Siora**, **Oswin** (2p), **Thane Wulfric/Elyswyth** (+40 Spirit uniques).
+- **Mẹo:** Megaliths, buy Runes Ferryman.
+
+### 2. Stolen Barya (Sa mạc)
+Khari → Crossing → Pools Khatal → Sel Sanctuary → Galai Gates → Qimah → Reservoir.
+- **Akthi/Anundr** (2p opt), **Elzarah**, **Vornas**, **Azmadi** (+5% HP/stats).
+- **Mẹo:** Barya wishes, Pillar buffs.
+
+### 3. Doryani’s Contingency (Vaal)
+Glade → Ashen Forest → Kriar Village → Glacial Tarn → Howling Caves → Peaks → Etched Ravine → Cuachic Vault.
+- **Lythara** (+40 Spirit Lv14), **Rakkar**, **Yeti** (2p opt), **Stormgore**, **Zelina/Zolin** (Greater Runes/2p).
+
+**Chúc speedrun xanh!**
